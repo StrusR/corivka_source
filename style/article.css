@@ -1,0 +1,197 @@
+#wrapper {
+    float: left;
+}
+
+#wrapper #leftCol {
+    background-color: #371600;
+    box-sizing: border-box;
+    float: left;
+    border: 1px dotted white;
+}
+
+#wrapper #rightCol {
+    background-color: #371600;
+    box-sizing: border-box;
+    float: left;
+    border: 1px dotted white;
+}
+
+#wrapper #rightCol .businessCard {
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Kurale', serif;
+}
+
+#wrapper #rightCol .businessCard .businessCardCow {
+    color: white;
+    margin-bottom: 20px;
+}
+
+#wrapper #rightCol .businessCard .businessCardPhone {
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#wrapper #rightCol .businessCard img {
+    border-radius: 50%;
+    border: 2px dotted white;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+}
+
+#wrapper #rightCol .businessCard img:hover {
+    border: 2px solid #1d0d03;
+}
+
+#wrapper #rightCol .businessCard ul {
+    text-align: center;
+    list-style-type: none;
+    border-bottom: 1px dotted white;
+    border-top: 1px dotted white;
+    box-sizing: border-box;
+    padding-top: 0.2em;
+}
+
+#wrapper #rightCol .businessCard ul li {
+    line-height: 0.8em;
+    margin-bottom: 10px;
+}
+
+#wrapper #rightCol .businessCard ul .time {
+    font-size: 0.7em;
+}
+
+@media (min-width: 1500px) {
+    #wrapper {
+        width: 85%;
+        margin-left: 10%;
+        margin-bottom: 30px;
+    }
+    #wrapper #leftCol {
+        width: 70%;
+        margin-right: 10%;
+        padding: 2%;
+        border-radius: 10px;
+    }
+    #wrapper #rightCol {
+        border-radius: 10px;
+        width: 20%;
+        padding: 2%;
+    }
+}
+
+@media (min-width: 1300px) and (max-width: 1499px) {
+    #wrapper {
+        width: 85%;
+        margin-left: 10%;
+        margin-bottom: 30px;
+    }
+    #wrapper #leftCol {
+        width: 70%;
+        margin-right: 10%;
+        padding: 2%;
+        border-radius: 10px;
+    }
+    #wrapper #rightCol {
+        border-radius: 10px;
+        width: 20%;
+        padding: 2%;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1299px) {
+    #wrapper {
+        width: 96%;
+        margin-left: 3%;
+        margin-bottom: 30px;
+    }
+    #wrapper #leftCol {
+        width: 70%;
+        margin-right: 5%;
+        padding: 2%;
+        border-radius: 10px;
+    }
+    #wrapper #rightCol {
+        border-radius: 10px;
+        width: 25%;
+        padding: 2%;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 999px) {
+    #wrapper {
+        width: 96%;
+        margin-left: 3%;
+        margin-bottom: 30px;
+    }
+    #wrapper #leftCol {
+        width: 70%;
+        margin-right: 5%;
+        padding: 2%;
+        border-radius: 10px;
+    }
+    #wrapper #rightCol {
+        border-radius: 10px;
+        width: 25%;
+        padding: 2%;
+    }
+    #wrapper #rightCol .businessCard ul .time {
+        font-size: 0.6em;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 799px) {
+    #wrapper {
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 30px;
+    }
+    #wrapper #leftCol {
+        width: 100%;
+        margin-right: 10%;
+        float: left;
+        padding: 2%;
+        border-radius: 10px;
+    }
+    #wrapper #rightCol {
+        display: none;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 599px) {
+    #wrapper {
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 30px;
+    }
+    #wrapper #leftCol {
+        width: 100%;
+        margin-right: 10%;
+        float: left;
+        padding: 2%;
+        border-radius: 10px;
+    }
+    #wrapper #rightCol {
+        display: none;
+    }
+}
+
+@media (max-width: 319px) {
+    #wrapper {
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 30px;
+    }
+    #wrapper #leftCol {
+        width: 100%;
+        margin-right: 10%;
+        float: left;
+        padding: 2%;
+        border-radius: 10px;
+    }
+    #wrapper #rightCol {
+        display: none;
+    }
+}

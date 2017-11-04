@@ -1,0 +1,36 @@
+.users_article {
+    width: 80%;
+    margin-left: 10%;
+    background-color: #371600;
+    padding: 3%;
+    box-sizing: border-box;
+    float: left;
+    border: 1px dotted white;
+    font-size: 1.1em;
+}
+
+.users_article .users {
+    width: 50%;
+    float: left;
+}
+
+.users_article .users_sort {
+    float: left;
+}
+
+.users_article .users_img {
+    width: 20%;
+}
+
+.users_article .users_initials {
+    width: 80%;
+}
+
+.users_article .users_initials,
+.users_article .users_img {
+    float: left;
+    border-left: 1px dotted white;
+    border-right: 1px dotted white;
+    box-sizing: border-box;
+    text-align: left;
+}

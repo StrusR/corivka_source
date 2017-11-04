@@ -1,0 +1,508 @@
+.headerBefore {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.headerBefore::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.headerBefore .logo {
+    float: left;
+    width: 100%;
+}
+
+.headerBefore .logo img {
+    height: 90px;
+    width: auto;
+    border: 3px dotted #C4AF25;
+    box-sizing: border-box;
+    border-radius: 100%;
+    margin-bottom: -25px;
+    background: rgb(0, 0, 142);
+}
+
+.headerBefore .logo img:hover {
+    border: 3px dotted rgb(0, 0, 142);
+    background: #C4AF25;
+}
+
+.headerBefore .flags {
+    float: left;
+    width: 100%;
+}
+
+.headerBefore .flags a {
+    position: relative;
+}
+
+.headerBefore .flags a img {
+    height: 20px;
+    width: 40px;
+}
+
+.headerAfter {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header {
+    float: left;
+    background-image: url("../img/backgroundHeaders.jpg");
+    border-bottom: 1px dotted white;
+    border-top: 1px dotted #4F2D00;
+    font-family: 'Noto Serif', serif;
+    opacity: 0.95;
+}
+
+header .logo {
+    float: left;
+}
+
+header .logo a {
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    float: left;
+}
+
+header .menuHead {
+    float: left;
+}
+
+header .menuHead a {
+    float: left;
+    box-sizing: border-box;
+}
+
+header .menuRestoran {
+    float: left;
+    text-align: right;
+}
+
+header .menuRestoran a {
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+header .menuRestoran .menu img {
+    float: right;
+    width: 30px;
+    height: auto;
+    margin-bottom: -10px;
+    margin-top: -5px;
+}
+
+header .menuRestoran .MenuOnClick {
+    display: none;
+    padding: 10px;
+    border-radius: 5px 0 5px 5px;
+    border: 1px dotted white;
+    background-image: url("../img/backgroundHeaders.jpg");
+    position: absolute;
+    right: 0px;
+}
+
+header .menuRestoran .MenuOnClick a {
+    display: block;
+    width: 100%;
+}
+
+@media (min-width: 1500px) {
+    .headerBefore .flags a {
+        top: -30px;
+        left: -30%;
+    }
+    .headerBefore .flags a img {
+        height: 20px;
+        width: 40px;
+    }
+    header {
+        width: 98%;
+        padding: 1%;
+        margin-bottom: 10px;
+    }
+    header .logo {
+        margin-top: 5px;
+        margin-bottom: -5px;
+        width: 15%;
+    }
+    header .logo a {
+        font-size: 2em;
+        border-radius: 3px;
+        float: left;
+        margin-left: 3%;
+    }
+    header .menuHead {
+        width: 25%;
+        font-size: 1.5em;
+    }
+    header .menuHead a {
+        margin-left: 3%;
+        padding: 5px;
+        border-radius: 3px;
+    }
+    header .menuRestoran {
+        width: 60%;
+        text-align: right;
+        font-size: 1.5em;
+    }
+    header .menuRestoran a {
+        margin-left: 3%;
+        padding: 5px;
+        border-radius: 3px;
+    }
+    header .menuRestoran .menu {
+        display: none;
+    }
+    header .menuRestoran .menuList {
+        display: inline-block;
+        border-radius: 3px;
+        margin-left: 3%;
+        padding: 5px;
+    }
+}
+
+@media (min-width: 1300px) and (max-width: 1499px) {
+    .headerBefore .flags a {
+        top: -30px;
+        left: -30%;
+    }
+    .headerBefore .flags a img {
+        height: 20px;
+        width: 40px;
+    }
+    header {
+        width: 98%;
+        padding: 1%;
+        margin-bottom: 10px;
+    }
+    header .logo {
+        margin-top: 5px;
+        margin-bottom: -5px;
+        width: 15%;
+    }
+    header .logo a {
+        font-size: 1.6em;
+        border-radius: 3px;
+        float: left;
+        margin-left: 3%;
+    }
+    header .menuHead {
+        width: 25%;
+        font-size: 1.3em;
+    }
+    header .menuHead a {
+        margin-left: 3%;
+        padding: 5px;
+        border-radius: 3px;
+    }
+    header .menuRestoran {
+        width: 60%;
+        text-align: right;
+        font-size: 1.3em;
+    }
+    header .menuRestoran a {
+        margin-left: 3%;
+        padding: 5px;
+        border-radius: 3px;
+    }
+    header .menuRestoran .menu {
+        display: none;
+    }
+    header .menuRestoran .menuList {
+        display: inline-block;
+        border-radius: 3px;
+        margin-left: 3%;
+        padding: 5px;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1299px) {
+    .headerBefore .flags a {
+        top: -30px;
+        left: -30%;
+    }
+    .headerBefore .flags a img {
+        height: 20px;
+        width: 40px;
+    }
+    header {
+        width: 98%;
+        padding: 1%;
+        margin-bottom: 10px;
+    }
+    header .logo {
+        margin-top: 5px;
+        margin-bottom: -5px;
+        width: 15%;
+    }
+    header .logo a {
+        font-size: 1.4em;
+        border-radius: 3px;
+        float: left;
+        margin-left: 3%;
+    }
+    header .menuHead {
+        width: 25%;
+        font-size: 1.1em;
+    }
+    header .menuHead a {
+        margin-left: 3%;
+        padding: 5px;
+        border-radius: 3px;
+    }
+    header .menuRestoran {
+        width: 60%;
+        text-align: right;
+        font-size: 1.1em;
+    }
+    header .menuRestoran a {
+        margin-left: 3%;
+        padding: 5px;
+        border-radius: 3px;
+    }
+    header .menuRestoran .menu {
+        display: none;
+    }
+    header .menuRestoran .menuList {
+        display: inline-block;
+        border-radius: 3px;
+        margin-left: 3%;
+        padding: 5px;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 999px) {
+    .headerBefore .flags a {
+        top: -30px;
+        left: -30%;
+    }
+    .headerBefore .flags a img {
+        height: 20px;
+        width: 40px;
+    }
+    header {
+        width: 98%;
+        padding: 1%;
+        margin-bottom: 10px;
+    }
+    header .logo {
+        margin-top: 5px;
+        margin-bottom: -5px;
+        width: 15%;
+    }
+    header .logo a {
+        font-size: 1.2em;
+        border-radius: 3px;
+        float: left;
+        margin-left: 3%;
+    }
+    header .menuHead {
+        width: 25%;
+        font-size: 1em;
+    }
+    header .menuHead a {
+        margin-left: 3%;
+        padding: 5px;
+        border-radius: 3px;
+    }
+    header .menuRestoran {
+        width: 60%;
+        text-align: right;
+        font-size: 1em;
+    }
+    header .menuRestoran a {
+        margin-left: 3%;
+        padding: 5px;
+        border-radius: 3px;
+    }
+    header .menuRestoran .menu {
+        display: none;
+    }
+    header .menuRestoran .menuList {
+        display: inline-block;
+        border-radius: 3px;
+        margin-left: 3%;
+        padding: 5px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 799px) {
+    .headerBefore .flags a {
+        top: -30px;
+        left: -29%;
+    }
+    .headerBefore .flags a img {
+        height: 20px;
+        width: 40px;
+    }
+    header {
+        width: 98%;
+        padding: 1%;
+        margin-bottom: 10px;
+    }
+    header .logo {
+        margin-top: 5px;
+        margin-bottom: -5px;
+        width: 15%;
+    }
+    header .logo a {
+        font-size: 1em;
+        border-radius: 3px;
+        float: left;
+        margin-left: 3%;
+    }
+    header .menuHead {
+        width: 25%;
+        font-size: 0.8em;
+    }
+    header .menuHead a {
+        margin-left: 3%;
+        padding: 5px;
+        border-radius: 3px;
+    }
+    header .menuRestoran {
+        width: 60%;
+        text-align: right;
+        font-size: 0.8em;
+    }
+    header .menuRestoran a {
+        margin-left: 3%;
+        padding: 5px;
+        border-radius: 3px;
+    }
+    header .menuRestoran .menu {
+        display: none;
+    }
+    header .menuRestoran .menuList {
+        display: inline-block;
+        border-radius: 3px;
+        margin-left: 3%;
+        padding: 5px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 599px) {
+    .headerBefore .logo img {
+        height: 60px;
+        width: auto;
+        margin-bottom: -25px;
+    }
+    .headerBefore .flags a {
+        top: -17px;
+        left: -32%;
+    }
+    .headerBefore .flags a img {
+        height: 15px;
+        width: 30px;
+    }
+    header {
+        width: 98%;
+        padding: 1%;
+        margin-bottom: 10px;
+    }
+    header .logo {
+        margin-top: 5px;
+        margin-bottom: -5px;
+        width: 20%;
+    }
+    header .logo a {
+        font-size: 1em;
+        border-radius: 3px;
+        float: left;
+        margin-left: 3%;
+    }
+    header .menuHead {
+        width: 45%;
+        font-size: 0.8em;
+    }
+    header .menuHead a {
+        margin-left: 3%;
+        padding: 5px;
+        border-radius: 3px;
+    }
+    header .menuRestoran {
+        width: 35%;
+        text-align: right;
+        font-size: 0.8em;
+    }
+    header .menuRestoran a {
+        margin-left: 3%;
+        padding: 5px;
+        border-radius: 3px;
+    }
+    header .menuRestoran .menu {
+        display: inline-block;
+        border-radius: 3px;
+        margin-left: 3%;
+        padding: 5px;
+    }
+    header .menuRestoran .menuList {
+        display: none;
+    }
+}
+
+@media (max-width: 319px) {
+    .headerBefore .logo img {
+        height: 50px;
+        width: auto;
+        margin-bottom: -25px;
+    }
+    .headerBefore .flags a {
+        top: -18px;
+        left: -34%;
+    }
+    .headerBefore .flags a img {
+        height: 10px;
+        width: 20px;
+    }
+    header {
+        width: 98%;
+        padding: 1%;
+        margin-bottom: 10px;
+    }
+    header .logo {
+        margin-top: 7px;
+        margin-bottom: -7px;
+        width: 30%;
+    }
+    header #logo a {
+        font-size: 0.8em;
+        border-radius: 3px;
+        float: left;
+        margin-left: 3%;
+    }
+    header .menuHead {
+        width: 40%;
+        font-size: 0.6em;
+    }
+    header .menuHead a {
+        margin-left: 3%;
+        padding: 5px;
+        border-radius: 3px;
+    }
+    header .menuRestoran {
+        width: 30%;
+        text-align: right;
+        font-size: 0.6em;
+    }
+    header #menuRestoran a {
+        margin-left: 3%;
+        padding: 5px;
+        border-radius: 3px;
+    }
+    header .menuRestoran .menu {
+        display: inline-block;
+        border-radius: 3px;
+        margin-left: 3%;
+        padding: 5px;
+    }
+    header .menuRestoran .menuList {
+        display: none;
+    }
+}

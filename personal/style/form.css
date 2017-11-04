@@ -1,0 +1,66 @@
+.article_reg_log {
+    width: 80%;
+    margin-left: 10%;
+    background-color: #371600;
+    padding: 3%;
+    box-sizing: border-box;
+    float: left;
+    border: 1px dotted white;
+}
+
+.display {
+    margin-bottom: 2%;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.form {
+    display: block;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    border-top: 1px dotted white;
+    border-bottom: 1px dotted white;
+    box-sizing: border-box;
+    padding: 1%;
+}
+
+.form input {
+    padding: 1%;
+    width: 50%;
+    border-radius: 5%;
+}
+
+.form input[type=text] {
+    text-transform: capitalize;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.form .form_submit {
+    margin-top: 3%;
+    width: 30%;
+    border: 1px dotted white;
+    cursor: pointer;
+}
+
+.form .form_submit:hover {
+    background: none;
+    color: white;
+}
+
+.form .form_submit:active {
+    background: rgb(42, 108, 42);
+}
+
+.check_passed {
+    border-color: silver;
+}
+
+.check_not_passed {
+    border-color: red;
+}

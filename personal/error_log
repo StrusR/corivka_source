@@ -1,0 +1,38 @@
+[01-Nov-2017 16:48:32 Europe/Kiev] PHP Parse error:  syntax error, unexpected ';' in /home/corivkac/public_html/personal/calendar.php on line 16
+[01-Nov-2017 19:15:18 Europe/Kiev] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/corivkac/public_html/personal/calendar.php on line 115
+[01-Nov-2017 19:15:22 Europe/Kiev] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/corivkac/public_html/personal/calendar.php on line 115
+[01-Nov-2017 19:15:35 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/calendar.php on line 111
+[01-Nov-2017 19:16:16 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/calendar.php on line 111
+[01-Nov-2017 19:17:09 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/calendar.php on line 111
+[01-Nov-2017 19:21:03 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/calendar.php on line 110
+[01-Nov-2017 19:51:40 Europe/Kiev] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/corivkac/public_html/personal/calendar.php on line 85
+[01-Nov-2017 19:59:14 Europe/Kiev] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/corivkac/public_html/personal/calendar.php on line 84
+[01-Nov-2017 20:10:48 Europe/Kiev] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/corivkac/public_html/personal/calendar.php on line 78
+[01-Nov-2017 20:11:05 Europe/Kiev] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/corivkac/public_html/personal/calendar.php on line 78
+[01-Nov-2017 20:11:18 Europe/Kiev] PHP Fatal error:  Cannot use [] for reading in /home/corivkac/public_html/personal/calendar.php on line 82
+[01-Nov-2017 20:11:19 Europe/Kiev] PHP Fatal error:  Cannot use [] for reading in /home/corivkac/public_html/personal/calendar.php on line 82
+[01-Nov-2017 20:14:18 Europe/Kiev] PHP Warning:  mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli in /home/corivkac/public_html/personal/calendar.php on line 80
+[01-Nov-2017 20:14:18 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/calendar.php on line 81
+[01-Nov-2017 20:21:22 Europe/Kiev] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/corivkac/public_html/personal/calendar.php on line 84
+[01-Nov-2017 21:47:48 Europe/Kiev] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in /home/corivkac/public_html/personal/calendar.php on line 85
+[01-Nov-2017 22:01:57 Europe/Kiev] PHP Parse error:  syntax error, unexpected ')' in /home/corivkac/public_html/personal/calendar.php on line 76
+[01-Nov-2017 22:26:36 Europe/Kiev] PHP Warning:  mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli in /home/corivkac/public_html/personal/calendar.php on line 88
+[01-Nov-2017 22:26:36 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/calendar.php on line 89
+[01-Nov-2017 22:26:57 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/calendar.php on line 89
+[01-Nov-2017 22:28:04 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/calendar.php on line 89
+[01-Nov-2017 22:29:44 Europe/Kiev] PHP Warning:  mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli in /home/corivkac/public_html/personal/calendar.php on line 80
+[01-Nov-2017 22:29:44 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/calendar.php on line 81
+[01-Nov-2017 22:30:30 Europe/Kiev] PHP Warning:  mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli in /home/corivkac/public_html/personal/calendar.php on line 82
+[01-Nov-2017 22:30:30 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/calendar.php on line 83
+[01-Nov-2017 22:30:54 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/calendar.php on line 92
+[01-Nov-2017 22:31:09 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/calendar.php on line 92
+[01-Nov-2017 22:31:24 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/calendar.php on line 92
+[01-Nov-2017 22:31:50 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/calendar.php on line 92
+[01-Nov-2017 22:32:04 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/calendar.php on line 92
+[01-Nov-2017 22:32:30 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/calendar.php on line 92
+[01-Nov-2017 22:32:45 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/calendar.php on line 92
+[01-Nov-2017 22:54:48 Europe/Kiev] PHP Parse error:  syntax error, unexpected '.' in /home/corivkac/public_html/personal/calendar.php on line 96
+[01-Nov-2017 22:57:55 Europe/Kiev] PHP Fatal error:  Function name must be a string in /home/corivkac/public_html/personal/calendar.php on line 90
+[01-Nov-2017 22:58:04 Europe/Kiev] PHP Fatal error:  Function name must be a string in /home/corivkac/public_html/personal/calendar.php on line 90
+[01-Nov-2017 23:13:12 Europe/Kiev] PHP Warning:  mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli in /home/corivkac/public_html/personal/calendar.php on line 95
+[01-Nov-2017 23:13:12 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/calendar.php on line 96

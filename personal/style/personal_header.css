@@ -1,0 +1,30 @@
+.header_log_reg .login_register {
+    float: right;
+    width: 100%;
+    text-align: center;
+}
+
+.user_header .my_initials {
+    float: left;
+    width: 30%;
+}
+
+.user_header .edit_page {
+    float: left;
+    width: 70%;
+    text-align: right;
+}
+
+.user_header .exit {
+    float: right;
+    text-align: right;
+}
+
+.my_edit_page,
+.users,
+.calendar,
+.edit_site {
+    float: right;
+    text-align: right;
+    margin-right: 1%;
+}

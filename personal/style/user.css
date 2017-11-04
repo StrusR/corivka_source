@@ -1,0 +1,56 @@
+.user_article {
+    width: 80%;
+    margin-left: 10%;
+    background-color: #371600;
+    padding: 3%;
+    box-sizing: border-box;
+    float: left;
+    border: 1px dotted white;
+    text-align: center;
+}
+
+.user_initials {
+    margin-bottom: 2%;
+    font-size: 1.5em;
+}
+
+.edit_access_rights_button {
+    display: none;
+    cursor: pointer;
+    border: 1px dotted white;
+    padding: 1%;
+    width: 20%;
+    margin: auto;
+    margin-top: 1%;
+}
+
+.edit_access_rights_button_to_provide:hover {
+    background: rgb(0, 109, 0);
+}
+
+.edit_access_rights_button_take:hover {
+    background: rgb(171, 37, 0);
+}
+
+.delete_user_button {
+    display: none;
+    cursor: pointer;
+    border: 1px dotted white;
+    padding: 1%;
+    width: 20%;
+    margin: auto;
+    margin-top: 1%;
+}
+
+.delete_user_button:hover {
+    background: rgb(171, 37, 0);
+}
+
+.edit_access_rights_button,
+.delete_user_button {
+    -webkit-transition: all.4s ease;
+    -moz-transition: all.4s ease;
+    -o-transition: all.4s ease;
+    -ms-transition: all.4s ease;
+    transition: all.4s ease;
+}

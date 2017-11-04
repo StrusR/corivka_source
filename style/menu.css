@@ -1,0 +1,358 @@
+#leftCol .menuStyle {
+    text-align: center;
+}
+
+#leftCol .menuType {
+    box-sizing: border-box;
+}
+
+#leftCol .menuType::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#leftCol .menuType .menuTypeHead {
+    border-radius: 2px 2px 0 0;
+    background-image: url("../img/backgroundHeaders.jpg");
+    color: white;
+    font-weight: bold;
+    border-bottom: 1px dotted white;
+    border-top: 1px dashed #4F2D00;
+    font-family: 'Noto Serif', serif;
+}
+
+#leftCol .menuType .menuDishes {
+    font-weight: bold;
+    float: left;
+}
+
+#leftCol .menuType .menuDishes .menuDish {
+    font-weight: 400;
+    font-family: 'Kurale', serif;
+}
+
+#leftCol .menuType .menuWeight {
+    float: left;
+    text-align: center;
+}
+
+#leftCol .menuType .menuPrice {
+    font-weight: bold;
+    float: left;
+    text-align: center;
+}
+
+#leftCol .menuType .menuDishes .menuIngradiends {
+    color: #D3D3D3;
+    font-family: 'Old Standard TT', serif;
+}
+
+@media (min-width: 1500px) {
+    #leftCol .menuStyle {
+        width: 100%;
+        font-size: 2.0em;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    #leftCol .menuType {
+        width: 100%;
+        margin-top: 10px;
+        padding-bottom: 1%;
+    }
+    #leftCol .menuType .menuTypeHead {
+        width: 98%;
+        padding: 1%;
+        font-size: 1.2em;
+        letter-spacing: 0.3em;
+    }
+    #leftCol .menuType .menuTypeArticle {
+        padding: 1%;
+    }
+    #leftCol .menuType .menuDishes {
+        width: 70%;
+        font-size: 1.0em;
+        font-weight: bold;
+        float: left;
+    }
+    #leftCol .menuType .menuDishes .menuIngradiends {
+        font-weight: 400;
+        font-size: 0.8em;
+        margin-top: -0px;
+        margin-left: 5px;
+        line-height: 1em;
+    }
+    #leftCol .menuType .menuWeight {
+        width: 15%;
+        font-size: 1.0em;
+        font-weight: 400;
+    }
+    #leftCol .menuType .menuPrice {
+        width: 15%;
+        font-size: 1.0em;
+    }
+}
+
+@media (min-width: 1300px) and (max-width: 1499px) {
+    #leftCol .menuStyle {
+        width: 100%;
+        font-size: 1.9em;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    #leftCol .menuType {
+        width: 100%;
+        margin-top: 5px;
+        padding-bottom: 1%;
+    }
+    #leftCol .menuType .menuTypeHead {
+        width: 98%;
+        padding: 1%;
+        font-size: 1.0em;
+        letter-spacing: 0.08em;
+    }
+    #leftCol .menuType .menuTypeArticle {
+        padding: 1%;
+    }
+    #leftCol .menuType .menuDishes {
+        width: 70%;
+        font-size: 1em;
+        margin-top: -3px;
+    }
+    #leftCol .menuType .menuDishes .menuIngradiends {
+        font-weight: 400;
+        font-size: 0.7em;
+        margin-top: -0px;
+        margin-left: 5px;
+        line-height: 1em;
+    }
+    #leftCol .menuType .menuWeight {
+        width: 15%;
+        font-size: 0.6em;
+        font-weight: 400;
+    }
+    #leftCol .menuType .menuPrice {
+        width: 15%;
+        font-size: 0.6em;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1299px) {
+    #leftCol .menuStyle {
+        width: 100%;
+        font-size: 1.7em;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+    #leftCol .menuType {
+        width: 100%;
+        margin-top: 5px;
+        padding-bottom: 1%;
+    }
+    #leftCol .menuType .menuTypeHead {
+        width: 98.1%;
+        padding: 1%;
+        font-size: 1.0em;
+        letter-spacing: 0.08em;
+    }
+    #leftCol .menuType .menuTypeArticle {
+        padding: 1%;
+    }
+    #leftCol .menuType .menuDishes {
+        width: 70%;
+        font-size: 0.9em;
+        margin-top: -3px;
+    }
+    #leftCol .menuType .menuDishes .menuIngradiends {
+        font-weight: 400;
+        font-size: 0.6em;
+        margin-top: -3px;
+        margin-left: 5px;
+        line-height: 1em;
+    }
+    #leftCol .menuType .menuWeight {
+        width: 15%;
+        font-size: 0.6em;
+        font-weight: 400;
+    }
+    #leftCol .menuType .menuPrice {
+        width: 15%;
+        font-size: 0.6em;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 999px) {
+    #leftCol .menuStyle {
+        width: 100%;
+        font-size: 1.4em;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    #leftCol .menuType {
+        width: 100%;
+        margin-top: 5px;
+        padding-bottom: 1%;
+    }
+    #leftCol .menuType .menuTypeHead {
+        width: 98%;
+        padding: 1%;
+        font-size: 0.9em;
+        letter-spacing: 0.03em;
+    }
+    #leftCol .menuType .menuTypeArticle {
+        padding: 1%;
+    }
+    #leftCol .menuType .menuDishes {
+        width: 70%;
+        font-size: 0.8em;
+        margin-top: -3px;
+    }
+    #leftCol .menuType .menuDishes .menuIngradiends {
+        font-weight: 400;
+        font-size: 0.5em;
+        margin-top: -3px;
+        margin-left: 5px;
+        line-height: 1em;
+    }
+    #leftCol .menuType .menuWeight {
+        width: 15%;
+        font-size: 0.6em;
+        font-weight: 400;
+    }
+    #leftCol .menuType .menuPrice {
+        width: 15%;
+        font-size: 0.6em;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 799px) {
+    #leftCol .menuStyle {
+        width: 100%;
+        font-size: 1.4em;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    #leftCol .menuType {
+        width: 100%;
+        margin-top: 5px;
+        padding-bottom: 1%;
+    }
+    #leftCol .menuType .menuTypeHead {
+        width: 98%;
+        padding: 1%;
+        font-size: 0.9em;
+        letter-spacing: 0.02em;
+    }
+    #leftCol .menuType .menuTypeArticle {
+        padding: 1%;
+    }
+    #leftCol .menuType .menuDishes {
+        width: 70%;
+        font-size: 0.6em;
+        margin-top: -3px;
+    }
+    #leftCol .menuType .menuDishes .menuIngradiends {
+        font-weight: 400;
+        font-size: 0.5em;
+        margin-top: -3px;
+        margin-left: 5px;
+        line-height: 1em;
+    }
+    #leftCol .menuType .menuWeight {
+        width: 15%;
+        font-size: 0.6em;
+        font-weight: 400;
+    }
+    #leftCol .menuType .menuPrice {
+        width: 15%;
+        font-size: 0.6em;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 599px) {
+    #leftCol .menuStyle {
+        width: 100%;
+        font-size: 1.2em;
+        font-weight: 600;
+        margin-bottom: 0px;
+    }
+    #leftCol .menuType {
+        width: 100%;
+        margin-top: 5px;
+        padding-bottom: 1%;
+    }
+    #leftCol .menuType .menuTypeHead {
+        width: 99%;
+        padding: 0.5%;
+        font-size: 0.8em;
+        letter-spacing: 0.02em;
+    }
+    #leftCol .menuType .menuTypeArticle {
+        padding: 1%;
+    }
+    #leftCol .menuType .menuDishes {
+        width: 70%;
+        font-size: 0.6em;
+        margin-top: -3px;
+    }
+    #leftCol .menuType .menuDishes .menuIngradiends {
+        font-weight: 400;
+        font-size: 0.7em;
+        margin-top: -3px;
+        margin-left: 5px;
+        line-height: 1em;
+    }
+    #leftCol .menuType .menuWeight {
+        width: 15%;
+        font-size: 0.6em;
+        font-weight: 400;
+    }
+    #leftCol .menuType .menuPrice {
+        width: 15%;
+        font-size: 0.6em;
+    }
+}
+
+@media (max-width: 319px) {
+    #leftCol .menuStyle {
+        width: 100%;
+        font-size: 1.0em;
+        font-weight: 600;
+        margin-bottom: -5px;
+    }
+    #leftCol .menuType {
+        width: 100%;
+        margin-top: 5px;
+        padding-bottom: 1%;
+    }
+    #leftCol .menuType .menuTypeHead {
+        width: 100%;
+        padding: 0%;
+        font-size: 0.6em;
+        letter-spacing: 0.02em;
+    }
+    #leftCol .menuType .menuTypeArticle {
+        padding: 0.5%;
+    }
+    #leftCol .menuType .menuDishes {
+        width: 70%;
+        font-size: 0.6em;
+        margin-top: -3px;
+    }
+    #leftCol .menuType .menuDishes .menuIngradiends {
+        font-weight: 400;
+        font-size: 0.6em;
+        margin-top: -3px;
+        margin-left: 5px;
+        line-height: 1em;
+    }
+    #leftCol .menuType .menuWeight {
+        width: 15%;
+        font-size: 0.6em;
+        font-weight: 400;
+    }
+    #leftCol .menuType .menuPrice {
+        width: 15%;
+        font-size: 0.6em;
+    }
+}
