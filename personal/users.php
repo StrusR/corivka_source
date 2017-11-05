@@ -30,9 +30,14 @@
             </div>
             <div class="edit_page">
                 <a class="exit" href="http://corivka.com.ua/personal/login.php">Вихід</a>
-                <a class="my_edit_page" href="http://corivka.com.ua/personal/my_edit_page.php">Редагувати сторінку</a>
-                <a class="calendar" href="http://corivka.com.ua/personal/calendar.php?moon=<?php echo date("m")."&year=".date("Y");?>">Календар</a>
-                <a class="edit_site" href="http://corivka.com.ua/personal/edit_site.php">Редагувати сайт</a>
+                <a class="my_edit_page" href="http://corivka.com.ua/personal/my_edit_page.php">Редагувати профіль</a>
+                <a class="calendar" href="http://corivka.com.ua/personal/calendar.php?month=<?php echo date("m")."&year=".date("Y");?>">Календар</a>
+                <div class="edit_site">Редагувати сайт</div>
+                <div class="edit_site_menu">
+                    <a class="edit_main_page" href="http://corivka.com.ua/personal/edit_main_page.php">Редагувати "Головна"</a>
+                    <a class="edit_contacts_page" href="http://corivka.com.ua/personal/edit_contacts_page.php">Редагувати "Контактні дані"</a>
+                    <a class="edit_menu_page" href="http://corivka.com.ua/personal/edit_menu_page.php">Редагувати "Меню"</a>
+                </div>
             </div>
 
         </header>

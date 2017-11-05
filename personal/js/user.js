@@ -22,7 +22,7 @@ function information_output(data) {
             $(".edit_access_rights_button").hide();
             $(".delete_user_button").hide();
         } else if (data.access_rights == 2) {
-            $(".edit_access_rights_button").show();
+
             $(".edit_access_rights_button").html("Забрати права адміністратора");
             $(".edit_access_rights_button").removeClass("edit_access_rights_button_to_provide").addClass("edit_access_rights_button_take");
             $(".delete_user_button").show();

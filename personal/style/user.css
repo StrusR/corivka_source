@@ -15,7 +15,6 @@
 }
 
 .edit_access_rights_button {
-    display: none;
     cursor: pointer;
     border: 1px dotted white;
     padding: 1%;
@@ -33,7 +32,6 @@
 }
 
 .delete_user_button {
-    display: none;
     cursor: pointer;
     border: 1px dotted white;
     padding: 1%;

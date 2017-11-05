@@ -17,4 +17,5 @@
 <link rel="stylesheet" href="/personal/style/personal_header.css">
 <link rel="stylesheet" href="../style/header.css">
 <script type="text/javascript" src="/JavaScript/jquery-3.2.1.min.js"></script>
-<script type="text/javascript" src="/personal/js/reg_log.js?t=<?php echo(microtime(true)); ?>"></script>
+<script type="text/javascript" src="/personal/js/reg_log.js"></script>
+<script type="text/javascript" src="/personal/js/header.js"></script>
