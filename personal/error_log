@@ -44,3 +44,77 @@
 [05-Nov-2017 10:55:15 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/calendar.php on line 103
 [05-Nov-2017 11:03:15 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/calendar.php on line 103
 [05-Nov-2017 11:12:20 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/calendar.php on line 87
+[05-Nov-2017 12:22:50 Europe/Kiev] PHP Warning:  mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli in /home/corivkac/public_html/personal/calendar.php on line 111
+[05-Nov-2017 12:22:50 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/calendar.php on line 112
+[05-Nov-2017 20:17:05 Europe/Kiev] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/corivkac/public_html/personal/edit_menu_page.php on line 72
+[05-Nov-2017 20:21:32 Europe/Kiev] PHP Parse error:  syntax error, unexpected '.' in /home/corivkac/public_html/personal/edit_menu_page.php on line 71
+[05-Nov-2017 20:21:38 Europe/Kiev] PHP Parse error:  syntax error, unexpected '.' in /home/corivkac/public_html/personal/edit_menu_page.php on line 71
+[06-Nov-2017 10:39:05 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/edit_menu_page.php on line 64
+[06-Nov-2017 10:39:35 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/edit_menu_page.php on line 64
+[06-Nov-2017 11:03:17 Europe/Kiev] PHP Warning:  Invalid argument supplied for foreach() in /home/corivkac/public_html/personal/edit_menu_page.php on line 74
+[06-Nov-2017 11:04:37 Europe/Kiev] PHP Warning:  Invalid argument supplied for foreach() in /home/corivkac/public_html/personal/edit_menu_page.php on line 88
+[06-Nov-2017 11:42:28 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/edit_menu_page.php on line 68
+[06-Nov-2017 11:44:06 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/edit_menu_page.php on line 68
+[06-Nov-2017 11:59:39 Europe/Kiev] PHP Warning:  Invalid argument supplied for foreach() in /home/corivkac/public_html/personal/edit_menu_page.php on line 100
+[06-Nov-2017 12:05:13 Europe/Kiev] PHP Parse error:  syntax error, unexpected ';' in /home/corivkac/public_html/personal/edit_menu_page.php on line 106
+[06-Nov-2017 12:12:13 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/edit_menu_page.php on line 69
+[06-Nov-2017 12:12:16 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/edit_menu_page.php on line 69
+[06-Nov-2017 12:13:58 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/edit_menu_page.php on line 69
+[06-Nov-2017 12:18:57 Europe/Kiev] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/corivkac/public_html/personal/edit_menu_page.php on line 109
+[06-Nov-2017 12:30:36 Europe/Kiev] PHP Parse error:  syntax error, unexpected $end in /home/corivkac/public_html/personal/edit_menu_page.php on line 108
+[06-Nov-2017 13:02:10 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/edit_menu_page.php on line 66
+[06-Nov-2017 14:12:35 Europe/Kiev] PHP Parse error:  syntax error, unexpected '.' in /home/corivkac/public_html/personal/edit_menu_page.php on line 81
+[06-Nov-2017 14:15:04 Europe/Kiev] PHP Parse error:  syntax error, unexpected '.' in /home/corivkac/public_html/personal/edit_menu_page.php on line 82
+[06-Nov-2017 14:16:13 Europe/Kiev] PHP Parse error:  syntax error, unexpected T_INC, expecting ',' or ';' in /home/corivkac/public_html/personal/edit_menu_page.php on line 82
+[06-Nov-2017 14:18:30 Europe/Kiev] PHP Parse error:  syntax error, unexpected T_INC, expecting ',' or ';' in /home/corivkac/public_html/personal/edit_menu_page.php on line 83
+[06-Nov-2017 16:16:00 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/edit_menu_page.php on line 66
+[06-Nov-2017 16:17:13 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/edit_menu_page.php on line 66
+[06-Nov-2017 16:17:19 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/edit_menu_page.php on line 66
+[06-Nov-2017 17:00:42 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/edit_menu_page.php on line 66
+[07-Nov-2017 12:28:59 Europe/Kiev] PHP Parse error:  syntax error, unexpected T_FOREACH in /home/corivkac/public_html/personal/edit_menu_page.php on line 78
+[07-Nov-2017 16:20:03 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/edit_menu_page.php on line 96
+[07-Nov-2017 16:20:42 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/edit_menu_page.php on line 96
+[07-Nov-2017 16:20:47 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/edit_menu_page.php on line 96
+[07-Nov-2017 16:20:54 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/edit_menu_page.php on line 96
+[07-Nov-2017 17:12:30 Europe/Kiev] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in /home/corivkac/public_html/personal/edit_menu_page.php on line 86
+[07-Nov-2017 17:16:20 Europe/Kiev] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in /home/corivkac/public_html/personal/edit_menu_page.php on line 146
+[07-Nov-2017 23:50:10 Europe/Kiev] PHP Parse error:  syntax error, unexpected ')' in /home/corivkac/public_html/personal/user.php on line 15
+[07-Nov-2017 23:50:24 Europe/Kiev] PHP Parse error:  syntax error, unexpected ')' in /home/corivkac/public_html/personal/user.php on line 15
+[08-Nov-2017 00:46:33 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/edit_menu_page.php on line 69
+[08-Nov-2017 01:00:41 Europe/Kiev] PHP Parse error:  syntax error, unexpected '=' in /home/corivkac/public_html/personal/edit_menu_page.php on line 61
+[08-Nov-2017 01:05:53 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/edit_menu_page.php on line 79
+[08-Nov-2017 01:06:03 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/edit_menu_page.php on line 79
+[08-Nov-2017 01:06:21 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/edit_menu_page.php on line 79
+[08-Nov-2017 01:06:30 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/edit_menu_page.php on line 79
+[08-Nov-2017 10:24:52 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/edit_menu_page.php on line 79
+[08-Nov-2017 10:24:56 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/edit_menu_page.php on line 79
+[08-Nov-2017 10:25:00 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/edit_menu_page.php on line 79
+[08-Nov-2017 10:25:42 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/edit_menu_page.php on line 79
+[08-Nov-2017 11:17:46 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/edit_menu_page.php on line 88
+[08-Nov-2017 11:25:25 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/edit_menu_page.php on line 88
+[08-Nov-2017 11:25:31 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/edit_menu_page.php on line 88
+[08-Nov-2017 17:04:37 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/edit_menu_page.php on line 88
+[09-Nov-2017 02:30:07 Europe/Kiev] PHP Warning:  require_once(/personal/blocks/head.php): failed to open stream: No such file or directory in /home/corivkac/public_html/personal/my_edit_page.php on line 21
+[09-Nov-2017 02:30:08 Europe/Kiev] PHP Fatal error:  require_once(): Failed opening required '/personal/blocks/head.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/corivkac/public_html/personal/my_edit_page.php on line 21
+[09-Nov-2017 02:30:08 Europe/Kiev] PHP Warning:  require_once(/personal/blocks/head.php): failed to open stream: No such file or directory in /home/corivkac/public_html/personal/my_edit_page.php on line 21
+[09-Nov-2017 02:30:08 Europe/Kiev] PHP Fatal error:  require_once(): Failed opening required '/personal/blocks/head.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/corivkac/public_html/personal/my_edit_page.php on line 21
+[09-Nov-2017 02:30:29 Europe/Kiev] PHP Warning:  require_once(/blocks/head.php): failed to open stream: No such file or directory in /home/corivkac/public_html/personal/my_edit_page.php on line 21
+[09-Nov-2017 02:30:29 Europe/Kiev] PHP Fatal error:  require_once(): Failed opening required '/blocks/head.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/corivkac/public_html/personal/my_edit_page.php on line 21
+[09-Nov-2017 02:30:31 Europe/Kiev] PHP Warning:  require_once(/blocks/head.php): failed to open stream: No such file or directory in /home/corivkac/public_html/personal/my_edit_page.php on line 21
+[09-Nov-2017 02:30:31 Europe/Kiev] PHP Fatal error:  require_once(): Failed opening required '/blocks/head.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/corivkac/public_html/personal/my_edit_page.php on line 21
+[09-Nov-2017 02:30:32 Europe/Kiev] PHP Warning:  require_once(/blocks/head.php): failed to open stream: No such file or directory in /home/corivkac/public_html/personal/my_edit_page.php on line 21
+[09-Nov-2017 02:30:32 Europe/Kiev] PHP Fatal error:  require_once(): Failed opening required '/blocks/head.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/corivkac/public_html/personal/my_edit_page.php on line 21
+[09-Nov-2017 02:30:32 Europe/Kiev] PHP Warning:  require_once(/blocks/head.php): failed to open stream: No such file or directory in /home/corivkac/public_html/personal/my_edit_page.php on line 21
+[09-Nov-2017 02:30:32 Europe/Kiev] PHP Fatal error:  require_once(): Failed opening required '/blocks/head.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/corivkac/public_html/personal/my_edit_page.php on line 21
+[09-Nov-2017 02:30:51 Europe/Kiev] PHP Warning:  require_once(personal/blocks/head.php): failed to open stream: No such file or directory in /home/corivkac/public_html/personal/my_edit_page.php on line 21
+[09-Nov-2017 02:30:51 Europe/Kiev] PHP Fatal error:  require_once(): Failed opening required 'personal/blocks/head.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/corivkac/public_html/personal/my_edit_page.php on line 21
+[09-Nov-2017 02:30:53 Europe/Kiev] PHP Warning:  require_once(personal/blocks/head.php): failed to open stream: No such file or directory in /home/corivkac/public_html/personal/my_edit_page.php on line 21
+[09-Nov-2017 02:30:53 Europe/Kiev] PHP Fatal error:  require_once(): Failed opening required 'personal/blocks/head.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/corivkac/public_html/personal/my_edit_page.php on line 21
+[09-Nov-2017 02:30:54 Europe/Kiev] PHP Warning:  require_once(personal/blocks/head.php): failed to open stream: No such file or directory in /home/corivkac/public_html/personal/my_edit_page.php on line 21
+[09-Nov-2017 02:30:54 Europe/Kiev] PHP Fatal error:  require_once(): Failed opening required 'personal/blocks/head.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/corivkac/public_html/personal/my_edit_page.php on line 21
+[09-Nov-2017 02:30:54 Europe/Kiev] PHP Warning:  require_once(personal/blocks/head.php): failed to open stream: No such file or directory in /home/corivkac/public_html/personal/my_edit_page.php on line 21
+[09-Nov-2017 02:30:54 Europe/Kiev] PHP Fatal error:  require_once(): Failed opening required 'personal/blocks/head.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/corivkac/public_html/personal/my_edit_page.php on line 21
+[09-Nov-2017 02:30:54 Europe/Kiev] PHP Warning:  require_once(personal/blocks/head.php): failed to open stream: No such file or directory in /home/corivkac/public_html/personal/my_edit_page.php on line 21
+[09-Nov-2017 02:30:54 Europe/Kiev] PHP Fatal error:  require_once(): Failed opening required 'personal/blocks/head.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/corivkac/public_html/personal/my_edit_page.php on line 21
+[09-Nov-2017 02:30:54 Europe/Kiev] PHP Warning:  require_once(personal/blocks/head.php): failed to open stream: No such file or directory in /home/corivkac/public_html/personal/my_edit_page.php on line 21
+[09-Nov-2017 02:30:54 Europe/Kiev] PHP Fatal error:  require_once(): Failed opening required 'personal/blocks/head.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/corivkac/public_html/personal/my_edit_page.php on line 21

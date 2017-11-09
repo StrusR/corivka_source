@@ -3,7 +3,7 @@ var ip = url.substring(url.lastIndexOf('ip=') + 3);
 
 function UserData(json_data) {
     if (json_data.ip == undefined) {
-        location = "http://corivka.com.ua/personal/user.php";
+        location = "https://corivka.com.ua:443/personal/user.php";
     } else {
         information_output(json_data);
     }
@@ -45,16 +45,15 @@ function information_output(data) {
         access_rights = "(Працівник)";
     }
     $(".my_snp").html(data.my_surname + " " + data.my_name + " " + data.my_patronymic + " " + my_access_rights);
-    $(".my_snp").attr("href", "http://corivka.com.ua/personal/user.php?ip=" + data.my_ip);
+    $(".my_snp").attr("href", "https://corivka.com.ua/personal/user.php?ip=" + data.my_ip);
 
     $("title").html(data.surname + " " + data.name + " " + data.patronymic + " " + access_rights);
     $(".user_snp").html(data.surname + " " + data.name + " " + data.patronymic + " " + access_rights);
-    $(".user_snp").attr("href", "http://corivka.com.ua/personal/user.php?ip=" + data.ip);
-
-
+    $(".user_snp").attr("href", "https://corivka.com.ua/personal/user.php?ip=" + data.ip);
 
     $(".user_phone").html("+" + data.phone);
     $(".user_email").html(data.login);
+    $(".user_avatar").attr("src", "/personal/base/avatar/" + data.avatar);
 };
 
 
@@ -98,8 +97,6 @@ function InformationAboutDeleteUser(json_data) {
 }
 
 function Information() {
-
-
     $.ajax({
         url: "../personal/base/user_base.php",
         type: "POST",
@@ -109,7 +106,6 @@ function Information() {
         }),
         success: UserData
     });
-
 }
 
 

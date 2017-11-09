@@ -14,6 +14,11 @@
     font-size: 1.5em;
 }
 
+.user_avatar {
+    width: 30%;
+    margin-top: 10px;
+}
+
 .edit_access_rights_button {
     cursor: pointer;
     border: 1px dotted white;

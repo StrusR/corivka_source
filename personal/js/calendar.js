@@ -4,7 +4,7 @@ var year = url.substring(url.lastIndexOf('year=') + 5);
 var month = url.substring(url.lastIndexOf('month=') + 6, url.lastIndexOf('month=') + 8);
 
 if (year < 2017 || year > 2030 || !isFinite(year) || month < 1 || month > 12) {
-    location = "http://corivka.com.ua/personal/calendar.php";
+    location = "https://corivka.com.ua/personal/calendar.php";
 }
 
 function UserData(data) {
@@ -24,7 +24,7 @@ function UserData(data) {
     }
 
     $(".my_snp").html(data.my_surname + " " + data.my_name + " " + data.my_patronymic + " " + my_access_rights);
-    $(".my_snp").attr("href", "http://corivka.com.ua/personal/user.php?ip=" + data.my_ip);
+    $(".my_snp").attr("href", "https://corivka.com.ua/personal/user.php?ip=" + data.my_ip);
 };
 
 
@@ -37,12 +37,12 @@ $.ajax({
 
 function editYear() {
     year = $(".year").val();
-    location = "http://corivka.com.ua/personal/calendar.php?month=" + month + "&year=" + year;
+    location = "https://corivka.com.ua/personal/calendar.php?month=" + month + "&year=" + year;
 }
 
 function editMonth() {
     month = $(".month").val();
-    location = "http://corivka.com.ua/personal/calendar.php?month=" + month + "&year=" + year;
+    location = "https://corivka.com.ua/personal/calendar.php?month=" + month + "&year=" + year;
 }
 
 function selectedMonthYear() {

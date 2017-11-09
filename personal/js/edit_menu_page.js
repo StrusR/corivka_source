@@ -1,6 +1,3 @@
-var url = document.location.href;
-var ip = url.substring(url.lastIndexOf('ip=') + 3);
-
 function UserData(data) {
     if (data.my_surname == undefined || data.my_surname == "") {
         location.reload();
@@ -24,4 +21,13 @@ $.ajax({
     type: "POST",
     dataType: "json",
     success: UserData
+});
+
+
+
+$(document).ready(function () {
+    $('.ShowHide').on('click', function (e) {
+        e.preventDefault();
+        $('.ShowHideBlock').show().not($(this).data('rel')).hide();
+    });
 });

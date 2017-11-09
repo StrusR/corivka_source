@@ -2,7 +2,7 @@
 <?php
     session_start();
     if (!$_SESSION['ip']) {
-        header("Location: http://corivka.com.ua/personal/login.php");
+        header("Location: https://corivka.com.ua/personal/login.php");
     }
     session_write_close();
     function getUrl() {
@@ -12,15 +12,15 @@
         return $url;
     };
     $my_url = getUrl();
-    if ($my_url == "http://corivka.com.ua/personal/calendar.php") {
-        header("Location: http://corivka.com.ua/personal/calendar.php?month=".date("m")."&year=".date("Y"));
+    if ($my_url == "https://corivka.com.ua:443/personal/calendar.php") {
+        header("Location: https://corivka.com.ua:443/personal/calendar.php?month=".date("m")."&year=".date("Y"));
     };
     $month = $_GET['month'];
     $year = $_GET['year'];
 ?>
 <html>
     <head>
-        <?php require_once "blocks/head.php" ?>
+        <?php require_once "../personal/blocks/head.php" ?>
         <link rel="stylesheet" href="style/calendar.css">
         <script type="text/javascript" src="/personal/js/calendar.js"></script>
         <title>Calendr</title>
@@ -31,15 +31,29 @@
                 <a href="" class="my_snp">...</a>
             </div>
             <div class="edit_page">
-                <a class="exit" href="http://corivka.com.ua/personal/login.php">Вихід</a>
-                <a class="my_edit_page" href="http://corivka.com.ua/personal/my_edit_page.php">Редагувати сторінку</a>
-                <a class="users" href="http://corivka.com.ua/personal/users.php">Працівники</a>
-                <div class="edit_site">Редагувати сайт</div>
-                <div class="edit_site_menu">
-                    <a class="edit_main_page" href="http://corivka.com.ua/personal/edit_main_page.php">Редагувати "Головна"</a>
-                    <a class="edit_contacts_page" href="http://corivka.com.ua/personal/edit_contacts_page.php">Редагувати "Контактні дані"</a>
-                    <a class="edit_menu_page" href="http://corivka.com.ua/personal/edit_menu_page.php">Редагувати "Меню"</a>
-                </div>
+                <a class="exit" href="https://corivka.com.ua/personal/login.php">Вихід</a>
+                <a class="my_edit_page" href="https://corivka.com.ua/personal/my_edit_page.php">Редагувати сторінку</a>
+                <a class="users" href="https://corivka.com.ua/personal/users.php">Персонал</a>
+                <?php
+                    $mysqli = new mysqli ("195.149.114.51", "corivkac", "gfup/kycqqs", "corivkac_admin");
+                    $mysqli -> query ("SET NAMES 'utf8'");
+                    $data_server = $mysqli -> query("SELECT `access_rights` FROM `users` WHERE `ip` = '".$_SESSION['ip']."'");
+                    while (($all = $data_server->fetch_assoc()) != false) {
+                        if ($all['access_rights'] < 3){
+                            echo "<div class='edit_site'>Редагувати сайт</div>";
+                            echo "<div class='edit_site_type'>";
+                                echo "<a class='edit_main_page' href='https://corivka.com.ua/personal/edit_main_page.php'>Редагувати \"Головна\"</a>";
+                                echo "<a class='edit_contacts_page' href='https://corivka.com.ua/personal/edit_contacts_page.php'>Редагувати \"Контактні дані\"</a>";
+                                echo "<div class='edit_menu'>Редагувати меню</div>";
+                                echo "<div class='edit_menu_type'>";
+                                    echo "<a class='edit_menu_page' href='https://corivka.com.ua/personal/edit_menu_page.php?menu=Menu'>Редагувати \"Меню\"</a>";
+                                    echo "<a class='edit_menu_page' href='https://corivka.com.ua/personal/edit_menu_page.php?menu=AlcoholMenu'>Редагувати \"Алкогольне меню\"</a>";
+                                    echo "<a class='edit_menu_page' href='https://corivka.com.ua/personal/edit_menu_page.php?menu=BanquetMenu'>Редагувати \"Банкетне меню\"</a>";
+                                echo "</div>";
+                            echo "</div>";
+                        }
+                    };
+                ?>
             </div>
         </header>
         <article class="calendar_article">
@@ -85,7 +99,7 @@
                 $initials;
 
                 for ($i=1; $i <date("t", strtotime("".$year."-".$month))+1 ; $i++) { 
-                    echo "<div href='http://corivka.com.ua/personal/reserv.php?day=".$i."&month=".$month."&year=".$year."' class='day'>";
+                    echo "<div href='https://corivka.com.ua/personal/reserv.php?day=".$i."&month=".$month."&year=".$year."' class='day'>";
                         $mysqli = new mysqli ("195.149.114.51", "corivkac", "gfup/kycqqs", "corivkac_admin");
                         $mysqli -> query ("SET NAMES 'utf8'");
                         $data_server = $mysqli -> query("SELECT `first_employee`, `second_employee`, `third_employee`, `fourth_employee`, `fifth_employee`, `sixth_employee`, `seventh_employee`, `eighth_employee` FROM `calendar` WHERE `year` = '".$year."' && `month` = '".$month."' && `day` = '".$i."'");
@@ -108,16 +122,26 @@
                             echo "<option value='' class='optionClear'>Очистити</option>";
                             $mysqli = new mysqli ("195.149.114.51", "corivkac", "gfup/kycqqs", "corivkac_admin");
                             $mysqli -> query ("SET NAMES 'utf8'");
-                            $data_server = $mysqli -> query("SELECT `surname`, `name` FROM `users`");
+                            $data_server = $mysqli -> query("SELECT `surname`, `name`, `avatar` FROM `users`");
                             while (($all = $data_server->fetch_assoc()) != false) {
                                 $initials = $all['surname']." ".$all['name'];
                                 if ($initials == $emp['first_employee'] || $initials == $emp['second_employee'] || $initials == $emp['third_employee'] || $initials == $emp['fourth_employee'] || $initials == $emp['fifth_employee'] || $initials == $emp['sixth_employee'] || $initials == $emp['seventh_employee'] || $initials == $emp['eighth_employee']) {
                                     echo "<option value='".$initials."' selected='selected'>";
                                     echo $initials;
+                                    if (empty($all['avatar'])) {
+                                        echo "<img class='users_img' alt='' src='../img/logo.jpg'></img>";
+                                    } else {
+                                        echo "<img class='users_img' alt='' src='/personal/base/avatar/".$all['avatar']."'></img>";
+                                    }
                                     echo "</option>";
                                 } else {
                                     echo "<option value='".$initials."'>";
                                     echo $initials;
+                                    if (empty($all['avatar'])) {
+                                        echo "<img class='users_img' alt='' src='../img/logo.jpg'></img>";
+                                    } else {
+                                        echo "<img class='users_img' alt='' src='/personal/base/avatar/".$all['avatar']."'></img>";
+                                    }
                                     echo "</option>";
                                 }
                                 

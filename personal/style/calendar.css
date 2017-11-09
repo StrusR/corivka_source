@@ -37,6 +37,10 @@
     display: none;
 }
 
+.calendar_article .day select .optionClear {
+    color: red;
+}
+
 .calendar_article .day select .optionClear:hover {
     text-decoration: underline;
     cursor: pointer;

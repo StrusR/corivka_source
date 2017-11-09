@@ -35,6 +35,35 @@
     text-transform: capitalize;
 }
 
+.form input[type=file] {
+    display: none;
+}
+
+.select_img {
+    cursor: pointer;
+    background: white;
+    color: black;
+    border: 2px solid silver;
+    border-radius: 5%;
+    padding: 1%;
+    font-weight: bold;
+}
+
+.select_img:hover {
+    color: #371600;
+}
+
+.status {
+    position: relative;
+    top: 7px;
+}
+
+.upload_img {
+    font-weight: bold;
+    margin-top: 3%;
+    background: white;
+}
+
 input[type=number]::-webkit-outer-spin-button,
 input[type=number]::-webkit-inner-spin-button {
     -webkit-appearance: none;

@@ -6,16 +6,16 @@
         <title>Алкогольне Меню</title>
     </head>
     <body>
-    <div class="headerBefore">
-        <div class="logo">
-            <a href="/index.php" title="Головна"><img src="../img/logo.jpg" alt="Головна"></a>
+        <div class="headerBefore">
+            <div class="logo">
+                <a href="/index.php" title="Головна"><img src="../img/logo.jpg" alt="Головна"></a>
+            </div>
+            <div class="flags">
+                <a href="/alcoholMenu.php?language=Ua"><img src="../img/ukraine.jpg" alt="ukraine language" title="Українська"></a>
+                <a href="/alcoholMenu.php?language=En"><img src="../img/english.png" alt="english language" title="English"></a>
+                <a href="/alcoholMenu.php?language=Pl"><img src="../img/poland.jpg" alt="poland language" title="Polski"></a>
+            </div>
         </div>
-        <div class="flags">
-            <a href="/alcoholMenu.php"><img src="../img/ukraine.jpg" alt="ukraine language" title="Українська"></a>
-            <a href="/alcoholMenu_en.php"><img src="../img/english.png" alt="english language" title="English"></a>
-            <span class="hide"><a href="/alcoholMenu_pl.php"><img src="../img/poland.jpg" alt="poland language" title="Polski"></a></span>
-        </div>
-    </div>
         <?php require_once "blocks/header.php" ?>
         <article id = "wrapper">
             <div id = "leftCol">

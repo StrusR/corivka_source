@@ -12,7 +12,7 @@
 <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Kurale" rel="stylesheet">
-<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
 <link rel="stylesheet" href="../style/style.css">
 <link rel="stylesheet" href="/personal/style/personal_header.css">
 <link rel="stylesheet" href="../style/header.css">

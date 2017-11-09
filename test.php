@@ -1,239 +1,68 @@
-<div class="day">
-                    <?php
-                        $mysqli = new mysqli ("195.149.114.51", "corivkac", "gfup/kycqqs", "corivkac_admin");
-                        $mysqli -> query ("SET NAMES 'utf8'");
-                        $data_server = $mysqli -> query("SELECT * FROM `calendar` WHERE `year` = '".$year."' && `moon` = '".$moon."' && `day` = '1'");
-                        while (($all = $data_server->fetch_assoc()) != false) {
-                            echo $all['first_employee']."<br>";
-                            echo $all['second_employee']."<br>";
-                            echo $all['third_employee']."<br>";
-                            echo $all['fourth_employee']."<br>";
-                        };
-                        $mysqli->close ();
-                    ?>
-                </div>
-                <div class="day">
-                    <?php
-                        $mysqli = new mysqli ("195.149.114.51", "corivkac", "gfup/kycqqs", "corivkac_admin");
-                        $mysqli -> query ("SET NAMES 'utf8'");
-                        $data_server = $mysqli -> query("SELECT * FROM `calendar` WHERE `year` = '".$year."' && `moon` = '".$moon."' && `day` = '2'");
-                        while (($all = $data_server->fetch_assoc()) != false) {
-                            echo $all['first_employee']."<br>";
-                            echo $all['second_employee']."<br>";
-                            echo $all['third_employee']."<br>";
-                            echo $all['fourth_employee']."<br>";
-                        };
-                        $mysqli->close ();
-                    ?>
-                </div>
-                <div class="day">
-                    <?php
-                        $mysqli = new mysqli ("195.149.114.51", "corivkac", "gfup/kycqqs", "corivkac_admin");
-                        $mysqli -> query ("SET NAMES 'utf8'");
-                        $data_server = $mysqli -> query("SELECT * FROM `calendar` WHERE `year` = '".$year."' && `moon` = '".$moon."' && `day` = '3'");
-                        while (($all = $data_server->fetch_assoc()) != false) {
-                            echo $all['first_employee']."<br>";
-                            echo $all['second_employee']."<br>";
-                            echo $all['third_employee']."<br>";
-                            echo $all['fourth_employee']."<br>";
-                        };
-                        $mysqli->close ();
-                    ?>
-                </div>
-                <div class="day">
-                    <?php
-                        $mysqli = new mysqli ("195.149.114.51", "corivkac", "gfup/kycqqs", "corivkac_admin");
-                        $mysqli -> query ("SET NAMES 'utf8'");
-                        $data_server = $mysqli -> query("SELECT * FROM `calendar` WHERE `year` = '".$year."' && `moon` = '".$moon."' && `day` = '4'");
-                        while (($all = $data_server->fetch_assoc()) != false) {
-                            echo $all['first_employee']."<br>";
-                            echo $all['second_employee']."<br>";
-                            echo $all['third_employee']."<br>";
-                            echo $all['fourth_employee']."<br>";
-                        };
-                        $mysqli->close ();
-                    ?>
-                </div>
-                <div class="day">
-                    <?php
-                        $mysqli = new mysqli ("195.149.114.51", "corivkac", "gfup/kycqqs", "corivkac_admin");
-                        $mysqli -> query ("SET NAMES 'utf8'");
-                        $data_server = $mysqli -> query("SELECT * FROM `calendar` WHERE `year` = '".$year."' && `moon` = '".$moon."' && `day` = '5'");
-                        while (($all = $data_server->fetch_assoc()) != false) {
-                            echo $all['first_employee']."<br>";
-                            echo $all['second_employee']."<br>";
-                            echo $all['third_employee']."<br>";
-                            echo $all['fourth_employee']."<br>";
-                        };
-                        $mysqli->close ();
-                    ?>
-                </div>
-                <div class="day">
-                    <?php
-                        $mysqli = new mysqli ("195.149.114.51", "corivkac", "gfup/kycqqs", "corivkac_admin");
-                        $mysqli -> query ("SET NAMES 'utf8'");
-                        $data_server = $mysqli -> query("SELECT * FROM `calendar` WHERE `year` = '".$year."' && `moon` = '".$moon."' && `day` = '6'");
-                        while (($all = $data_server->fetch_assoc()) != false) {
-                            echo $all['first_employee']."<br>";
-                            echo $all['second_employee']."<br>";
-                            echo $all['third_employee']."<br>";
-                            echo $all['fourth_employee']."<br>";
-                        };
-                        $mysqli->close ();
-                    ?>
-                </div>
-                <div class="day">
-                    <?php
-                        $mysqli = new mysqli ("195.149.114.51", "corivkac", "gfup/kycqqs", "corivkac_admin");
-                        $mysqli -> query ("SET NAMES 'utf8'");
-                        $data_server = $mysqli -> query("SELECT * FROM `calendar` WHERE `year` = '".$year."' && `moon` = '".$moon."' && `day` = '7'");
-                        while (($all = $data_server->fetch_assoc()) != false) {
-                            echo $all['first_employee']."<br>";
-                            echo $all['second_employee']."<br>";
-                            echo $all['third_employee']."<br>";
-                            echo $all['fourth_employee']."<br>";
-                        };
-                        $mysqli->close ();
-                    ?>
-                </div>
-                <div class="day">
-                    <?php
-                        $mysqli = new mysqli ("195.149.114.51", "corivkac", "gfup/kycqqs", "corivkac_admin");
-                        $mysqli -> query ("SET NAMES 'utf8'");
-                        $data_server = $mysqli -> query("SELECT * FROM `calendar` WHERE `year` = '".$year."' && `moon` = '".$moon."' && `day` = '8'");
-                        while (($all = $data_server->fetch_assoc()) != false) {
-                            echo $all['first_employee']."<br>";
-                            echo $all['second_employee']."<br>";
-                            echo $all['third_employee']."<br>";
-                            echo $all['fourth_employee']."<br>";
-                        };
-                        $mysqli->close ();
-                    ?>
-                </div>
-                <div class="day">
-                    <?php
-                        $mysqli = new mysqli ("195.149.114.51", "corivkac", "gfup/kycqqs", "corivkac_admin");
-                        $mysqli -> query ("SET NAMES 'utf8'");
-                        $data_server = $mysqli -> query("SELECT * FROM `calendar` WHERE `year` = '".$year."' && `moon` = '".$moon."' && `day` = '9'");
-                        while (($all = $data_server->fetch_assoc()) != false) {
-                            echo $all['first_employee']."<br>";
-                            echo $all['second_employee']."<br>";
-                            echo $all['third_employee']."<br>";
-                            echo $all['fourth_employee']."<br>";
-                        };
-                        $mysqli->close ();
-                    ?>
-                </div>
-                <div class="day">
-                    <?php
-                        $mysqli = new mysqli ("195.149.114.51", "corivkac", "gfup/kycqqs", "corivkac_admin");
-                        $mysqli -> query ("SET NAMES 'utf8'");
-                        $data_server = $mysqli -> query("SELECT * FROM `calendar` WHERE `year` = '".$year."' && `moon` = '".$moon."' && `day` = '10'");
-                        while (($all = $data_server->fetch_assoc()) != false) {
-                            echo $all['first_employee']."<br>";
-                            echo $all['second_employee']."<br>";
-                            echo $all['third_employee']."<br>";
-                            echo $all['fourth_employee']."<br>";
-                        };
-                        $mysqli->close ();
-                    ?>
-                </div>
-                <div class="day">
-                    <?php
-                        $mysqli = new mysqli ("195.149.114.51", "corivkac", "gfup/kycqqs", "corivkac_admin");
-                        $mysqli -> query ("SET NAMES 'utf8'");
-                        $data_server = $mysqli -> query("SELECT * FROM `calendar` WHERE `year` = '".$year."' && `moon` = '".$moon."' && `day` = '11'");
-                        while (($all = $data_server->fetch_assoc()) != false) {
-                            echo $all['first_employee']."<br>";
-                            echo $all['second_employee']."<br>";
-                            echo $all['third_employee']."<br>";
-                            echo $all['fourth_employee']."<br>";
-                        };
-                        $mysqli->close ();
-                    ?>
-                </div>
-                <div class="day">
-                    <?php
-                        $mysqli = new mysqli ("195.149.114.51", "corivkac", "gfup/kycqqs", "corivkac_admin");
-                        $mysqli -> query ("SET NAMES 'utf8'");
-                        $data_server = $mysqli -> query("SELECT * FROM `calendar` WHERE `year` = '".$year."' && `moon` = '".$moon."' && `day` = '12'");
-                        while (($all = $data_server->fetch_assoc()) != false) {
-                            echo $all['first_employee']."<br>";
-                            echo $all['second_employee']."<br>";
-                            echo $all['third_employee']."<br>";
-                            echo $all['fourth_employee']."<br>";
-                        };
-                        $mysqli->close ();
-                    ?>
-                </div>
-                <div class="day">
-                    <?php
-                        $mysqli = new mysqli ("195.149.114.51", "corivkac", "gfup/kycqqs", "corivkac_admin");
-                        $mysqli -> query ("SET NAMES 'utf8'");
-                        $data_server = $mysqli -> query("SELECT * FROM `calendar` WHERE `year` = '".$year."' && `moon` = '".$moon."' && `day` = '13'");
-                        while (($all = $data_server->fetch_assoc()) != false) {
-                            echo $all['first_employee']."<br>";
-                            echo $all['second_employee']."<br>";
-                            echo $all['third_employee']."<br>";
-                            echo $all['fourth_employee']."<br>";
-                        };
-                        $mysqli->close ();
-                    ?>
-                </div>
-                <div class="day">
-                    <?php
-                        $mysqli = new mysqli ("195.149.114.51", "corivkac", "gfup/kycqqs", "corivkac_admin");
-                        $mysqli -> query ("SET NAMES 'utf8'");
-                        $data_server = $mysqli -> query("SELECT * FROM `calendar` WHERE `year` = '".$year."' && `moon` = '".$moon."' && `day` = '14'");
-                        while (($all = $data_server->fetch_assoc()) != false) {
-                            echo $all['first_employee']."<br>";
-                            echo $all['second_employee']."<br>";
-                            echo $all['third_employee']."<br>";
-                            echo $all['fourth_employee']."<br>";
-                        };
-                        $mysqli->close ();
-                    ?>
-                </div>
-                <div class="day">
-                    <?php
-                        $mysqli = new mysqli ("195.149.114.51", "corivkac", "gfup/kycqqs", "corivkac_admin");
-                        $mysqli -> query ("SET NAMES 'utf8'");
-                        $data_server = $mysqli -> query("SELECT * FROM `calendar` WHERE `year` = '".$year."' && `moon` = '".$moon."' && `day` = '15'");
-                        while (($all = $data_server->fetch_assoc()) != false) {
-                            echo $all['first_employee']."<br>";
-                            echo $all['second_employee']."<br>";
-                            echo $all['third_employee']."<br>";
-                            echo $all['fourth_employee']."<br>";
-                        };
-                        $mysqli->close ();
-                    ?>
-                </div>
-                <div class="day">
-                    <?php
-                        $mysqli = new mysqli ("195.149.114.51", "corivkac", "gfup/kycqqs", "corivkac_admin");
-                        $mysqli -> query ("SET NAMES 'utf8'");
-                        $data_server = $mysqli -> query("SELECT * FROM `calendar` WHERE `year` = '".$year."' && `moon` = '".$moon."' && `day` = '16'");
-                        while (($all = $data_server->fetch_assoc()) != false) {
-                            echo $all['first_employee']."<br>";
-                            echo $all['second_employee']."<br>";
-                            echo $all['third_employee']."<br>";
-                            echo $all['fourth_employee']."<br>";
-                        };
-                        $mysqli->close ();
-                    ?>
-                </div>
-                <div class="day">17</div>
-                <div class="day">18</div>
-                <div class="day">19</div>
-                <div class="day">20</div>
-                <div class="day">21</div>
-                <div class="day">22</div>
-                <div class="day">23</div>
-                <div class="day">24</div>
-                <div class="day">25</div>
-                <div class="day">26</div>
-                <div class="day">27</div>
-                <div class="day">28</div>
-                <div class="day">29</div>
-                <div class="day">30</div>
-                <div class="day">31</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+
+$.fn.swap = function (b) {
+
+  $(this).each(function(i){
+
+    var b1 = $(b)[i],
+
+      a2 = $(this).clone(),
+
+      b2 = $(b1).clone();
+
+    $(this).replaceWith(b2);
+
+    $(b1).replaceWith(a2);
+
+  });
+
+};
+
+$(function() {
+
+  $('button').click(function(){
+
+    $(".odd, .odds").swap($(".even, .evens"));
+
+  });
+
+});
+
+</script>
+
+<div class="odd">odd1</div><br />
+
+<div class="even">even1</div><br />
+
+<div class="odd">odd2</div><br />
+
+<div class="even">even2</div><br />
+
+<div class="odd">odd3</div><br />
+
+<div class="even">even3</div><br />
+
+<button>swap</button><br />
+
+<div class="odds">odds1</div><br />
+
+<div class="evens">evens1</div><br />
+
+<div class="odds">odds2</div><br />
+
+<div class="evens">evens2</div><br />
+
+<div class="odds">odds3</div><br />
+
+<div class="evens">evens3</div>
+</body>
+</html>

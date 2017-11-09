@@ -172,7 +172,7 @@ function AuditRegForm() {
             $("#phone").removeClass("check_not_passed").addClass("check_passed");
         };
         if (json_data.phone == true && json_data.login == true) {
-            location = "http://corivka.com.ua/personal/user.php?ip=" + json_data.ip;
+            location = "https://corivka.com.ua/personal/user.php?ip=" + json_data.ip;
         };
     };
 };
@@ -227,7 +227,7 @@ function AuditLogForm() {
             $(".display").html("Вхід");
             $("#email_phone").removeClass("check_not_passed").addClass("check_passed");
             $("#password").removeClass("check_not_passed").addClass("check_passed");
-            location = "http://corivka.com.ua/personal/user.php?ip=" + json_data.ip;
+            location = "https://corivka.com.ua/personal/user.php?ip=" + json_data.ip;
         };
     };
 };

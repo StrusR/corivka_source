@@ -40,6 +40,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
             $mysqli -> query("UPDATE `users` SET `login` = '".$new_login."', `surname` = '".$new_surname."', `patronymic` = '".$new_patronymic."', `phone` = '".$new_phone."' WHERE `users`.`ip` = '".$ip."'");
         }
     }
+    
 
     echo json_encode($SuccessReturn);
     

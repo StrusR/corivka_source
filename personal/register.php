@@ -9,22 +9,20 @@ function getUrl() {
 $my_url = getUrl();
 session_start();
 if ($_SESSION['ip']) {
-    header("Location: http://corivka.com.ua/personal/user.php?ip=".$_SESSION['ip']);
-} else if ($my_url != "http://corivka.com.ua/personal/register.php") {
-    header("Location: http://corivka.com.ua/personal/register.php");
+    header("Location: https://corivka.com.ua:443/personal/user.php?ip=".$_SESSION['ip']);
 }
 session_write_close();
 ?>
 <html>
     <head>
-        <?php require_once "blocks/head.php" ?>
+        <?php require_once "../personal/blocks/head.php" ?>
         <link rel="stylesheet" href="style/form.css">
         <title>Реєстрація</title>
     </head>
     <body>
         <header class="header_log_reg">
             <div class="login_register">
-                <a href="http://corivka.com.ua/personal/login.php">Увійти</a>
+                <a href="https://corivka.com.ua/personal/login.php">Увійти</a>
             </div>
         </header>
         <article class="article_reg_log">

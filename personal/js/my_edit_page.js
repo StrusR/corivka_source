@@ -3,7 +3,7 @@ var ip = url.substring(url.lastIndexOf('ip=') + 3);
 
 function UserData(json_data) {
     if (json_data.ip == undefined) {
-        location = "http://corivka.com.ua/personal/my_edit_page.php";
+        location = "https://corivka.com.ua/personal/my_edit_page.php";
     } else {
         information_output(json_data);
     }
@@ -25,7 +25,7 @@ function information_output(data) {
 
     $("title").html(data.my_surname + " " + data.my_name + " " + data.my_patronymic + " " + my_access_rights);
     $(".my_snp").html(data.my_surname + " " + data.my_name + " " + data.my_patronymic + " " + my_access_rights);
-    $(".my_snp").attr("href", "http://corivka.com.ua/personal/user.php?ip=" + data.my_ip);
+    $(".my_snp").attr("href", "https://corivka.com.ua/personal/user.php?ip=" + data.my_ip);
 
     old_email = data.my_login;
     $("#email").attr("value", data.my_login);
@@ -49,6 +49,9 @@ function AuditEditPageForm() {
     var oldpassword = $("#oldpassword").val();
     var newpassword = $("#newpassword").val();
     var newrepassword = $("#newrepassword").val();
+    var avatar = $('#avatar').prop('files')[0];
+
+
 
     var audit_email = false;
     var audit_surname = false;
@@ -180,6 +183,8 @@ function AuditEditPageForm() {
         };
     };
     if (audit_email == true && audit_surname == true && audit_name == true && audit_patronymic == true && audit_phone == true && audit_newpassword == true && audit_newrepassword == true) {
+        var form_data = new FormData();
+        form_data.append('file', avatar);
         $.ajax({
             url: "../personal/base/my_edit_page_base.php",
             type: "POST",
@@ -192,7 +197,7 @@ function AuditEditPageForm() {
                 patronymic: patronymic,
                 phone: phone,
                 oldpassword: oldpassword,
-                newpassword: newpassword
+                newpassword: newpassword,
             }),
             success: AuditBaseSuccess
         });
@@ -222,8 +227,9 @@ function AuditEditPageForm() {
         };
         if (json_data.phone == true && json_data.login == true && json_data.password == true) {
             alert("Дані збережено");
-            location = "http://corivka.com.ua/personal/user.php?ip=" + json_data.ip;
+            location = "https://corivka.com.ua/personal/user.php?ip=" + json_data.ip;
         };
+
     };
 };
 
@@ -244,7 +250,7 @@ function AuditBasePasswordSuccess(json_data) {
         $("#loldpassword").html("Не правильний пароль");
         $("#oldpassword").removeClass("check_passed").addClass("check_not_passed");
     } else {
-        location = "http://corivka.com.ua/personal/login.php";
+        location = "https://corivka.com.ua/personal/login.php";
     };
 }
 
@@ -268,4 +274,13 @@ $(document).ready(function () {
     Information();
     $("#edit_page_submit").bind("click", AuditEditPageForm);
     $("#delete_user_button").bind("click", delete_user_base);
+    $(".file_upload").change(function () {
+        if ($('#file').val() == "") {
+            $(".status").html("зображення не вибрано");
+        } else {
+            var f = $('#file').val().substring($('#file').val().lastIndexOf('\\') + 1);
+            $(".status").html(f);
+        }
+    });
+
 });
