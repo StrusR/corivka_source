@@ -3,12 +3,13 @@
         <div>
             CAFE
         </div>
-            <a href="/index_en.php" title="Main"><img src="../img/logo.jpg" alt="Main"></a>
+            <a href="/index.php?language=En" title="Main"><img src="../img/logo.png" alt="Main"></a>
         <div class="businessCardCow">
             COW
         </div>
         <div>
             <ul>
+                <li>Waiting for you <span class="time">[from 09:00 to 20:00],</span></li>
                 <li>breakfasts</li>
                 <li>corporate lunches</li>
                 <li>banquets</li>
@@ -17,7 +18,7 @@
             </ul>
         </div>
         <div class="businessCardPhone">
-            tel. 067 100 50 23
+            tel. +38 (067) 100 50 23
         </div>
     </div>
     

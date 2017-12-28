@@ -4,14 +4,18 @@
     text-align: center;
 }
 
+.user_header {
+    opacity: 100;
+}
+
 .user_header .my_initials {
     float: left;
-    width: 30%;
+    width: 35%;
 }
 
 .user_header .edit_page {
     float: left;
-    width: 70%;
+    width: 65%;
     text-align: right;
 }
 
@@ -52,6 +56,7 @@
 }
 
 .edit_site_type {
+    z-index: 1000;
     width: 100%;
     right: 0;
     display: none;
@@ -78,4 +83,28 @@
 
 .edit_site_type a {
     margin-left: 1%;
+}
+
+@media (min-width: 800px) and (max-width: 999px) {
+    .user_header {
+        font-size: 0.8em;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 799px) {
+    .user_header {
+        font-size: 0.7em;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 599px) {
+    .user_header {
+        font-size: 0.35em;
+    }
+}
+
+@media (max-width: 319px) {
+    .user_header {
+        font-size: 0.3em;
+    }
 }

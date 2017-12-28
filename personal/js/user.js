@@ -15,45 +15,19 @@ function information_output(data) {
         location.reload();
     }
     var access_rights;
-    var my_access_rights;
-    if (data.my_access_rights == 1) {
-        my_access_rights = "(Директор)";
-        if (data.access_rights == 1) {
-            $(".edit_access_rights_button").hide();
-            $(".delete_user_button").hide();
-        } else if (data.access_rights == 2) {
-
-            $(".edit_access_rights_button").html("Забрати права адміністратора");
-            $(".edit_access_rights_button").removeClass("edit_access_rights_button_to_provide").addClass("edit_access_rights_button_take");
-            $(".delete_user_button").show();
-        } else {
-            $(".edit_access_rights_button").show();
-            $(".edit_access_rights_button").html("Надати права адміністратора");
-            $(".edit_access_rights_button").removeClass("edit_access_rights_button_take").addClass("edit_access_rights_button_to_provide");
-            $(".delete_user_button").show();
-        }
-    } else if (data.my_access_rights == 2) {
-        my_access_rights = "(Адміністратор)";
-    } else {
-        my_access_rights = "(Працівник)";
-    }
     if (data.access_rights == 1) {
-        access_rights = "(Директор)";
+        $(".edit_access_rights_button").hide();
+        $(".delete_user_button").hide();
     } else if (data.access_rights == 2) {
-        access_rights = "(Адміністратор)";
+        $(".edit_access_rights_button").html("Забрати права адміністратора");
+        $(".edit_access_rights_button").removeClass("edit_access_rights_button_to_provide").addClass("edit_access_rights_button_take");
+        $(".delete_user_button").show();
     } else {
-        access_rights = "(Працівник)";
+        $(".edit_access_rights_button").show();
+        $(".edit_access_rights_button").html("Надати права адміністратора");
+        $(".edit_access_rights_button").removeClass("edit_access_rights_button_take").addClass("edit_access_rights_button_to_provide");
+        $(".delete_user_button").show();
     }
-    $(".my_snp").html(data.my_surname + " " + data.my_name + " " + data.my_patronymic + " " + my_access_rights);
-    $(".my_snp").attr("href", "https://corivka.com.ua/personal/user.php?ip=" + data.my_ip);
-
-    $("title").html(data.surname + " " + data.name + " " + data.patronymic + " " + access_rights);
-    $(".user_snp").html(data.surname + " " + data.name + " " + data.patronymic + " " + access_rights);
-    $(".user_snp").attr("href", "https://corivka.com.ua/personal/user.php?ip=" + data.ip);
-
-    $(".user_phone").html("+" + data.phone);
-    $(".user_email").html(data.login);
-    $(".user_avatar").attr("src", "/personal/base/avatar/" + data.avatar);
 };
 
 
@@ -107,6 +81,8 @@ function Information() {
         success: UserData
     });
 }
+
+
 
 
 $(document).ready(function () {

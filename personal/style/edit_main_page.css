@@ -1,0 +1,42 @@
+.egit_main_page_article {
+    width: 90%;
+    margin-left: 5%;
+    background-color: #371600;
+    padding: 2%;
+    box-sizing: border-box;
+    float: left;
+    border: 1px dotted white;
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+}
+
+input {
+    width: 100%;
+}
+
+input[type=radio] {
+    width: 25%;
+    float: left;
+}
+
+.radio {
+    width: 50%;
+    float: left;
+}
+
+.mainImage {
+    width: 150px;
+}
+
+.showAddParagraph,
+.showAddImage {
+    cursor: pointer;
+}
+
+.addParagraph,
+.addImage {
+    display: none;
+}

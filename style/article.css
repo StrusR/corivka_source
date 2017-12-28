@@ -31,6 +31,7 @@
     margin-top: 20px;
     text-align: center;
     text-decoration: underline;
+    font-size: 0.8em
 }
 
 #wrapper #rightCol .businessCard img {
@@ -55,12 +56,12 @@
 }
 
 #wrapper #rightCol .businessCard ul li {
-    line-height: 0.8em;
+    line-height: 0.7em;
     margin-bottom: 10px;
 }
 
 #wrapper #rightCol .businessCard ul .time {
-    font-size: 0.7em;
+    font-size: 0.6em;
 }
 
 @media (min-width: 1500px) {
@@ -138,7 +139,7 @@
         padding: 2%;
     }
     #wrapper #rightCol .businessCard ul .time {
-        font-size: 0.6em;
+        font-size: 0.55em;
     }
 }
 

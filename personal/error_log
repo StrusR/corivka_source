@@ -118,3 +118,33 @@
 [09-Nov-2017 02:30:54 Europe/Kiev] PHP Fatal error:  require_once(): Failed opening required 'personal/blocks/head.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/corivkac/public_html/personal/my_edit_page.php on line 21
 [09-Nov-2017 02:30:54 Europe/Kiev] PHP Warning:  require_once(personal/blocks/head.php): failed to open stream: No such file or directory in /home/corivkac/public_html/personal/my_edit_page.php on line 21
 [09-Nov-2017 02:30:54 Europe/Kiev] PHP Fatal error:  require_once(): Failed opening required 'personal/blocks/head.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/corivkac/public_html/personal/my_edit_page.php on line 21
+[09-Nov-2017 19:08:58 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/calendar.php on line 110
+[09-Nov-2017 19:09:20 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/calendar.php on line 110
+[09-Nov-2017 19:09:32 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/calendar.php on line 110
+[09-Nov-2017 19:10:10 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/calendar.php on line 110
+[09-Nov-2017 19:10:30 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/calendar.php on line 110
+[09-Nov-2017 19:21:07 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/calendar.php on line 115
+[19-Nov-2017 14:21:25 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/edit_menu_page.php on line 118
+[26-Nov-2017 15:58:01 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/edit_menu_page.php on line 88
+[26-Nov-2017 15:58:04 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/edit_menu_page.php on line 88
+[26-Nov-2017 15:59:15 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/edit_menu_page.php on line 88
+[26-Nov-2017 17:20:19 Europe/Kiev] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in /home/corivkac/public_html/personal/edit_main_page.php on line 63
+[26-Nov-2017 17:20:29 Europe/Kiev] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in /home/corivkac/public_html/personal/edit_main_page.php on line 63
+[26-Nov-2017 17:22:19 Europe/Kiev] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/corivkac/public_html/personal/edit_main_page.php on line 66
+[27-Nov-2017 23:59:52 Europe/Kiev] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/corivkac/public_html/personal/edit_main_page.php on line 69
+[26-Dec-2017 15:05:45 Europe/Kiev] PHP Fatal error:  Call to a member function query() on a non-object in /home/corivkac/public_html/personal/user.php on line 30
+[26-Dec-2017 15:06:22 Europe/Kiev] PHP Parse error:  syntax error, unexpected '.' in /home/corivkac/public_html/personal/user.php on line 32
+[26-Dec-2017 15:06:24 Europe/Kiev] PHP Parse error:  syntax error, unexpected '.' in /home/corivkac/public_html/personal/user.php on line 32
+[26-Dec-2017 15:06:37 Europe/Kiev] PHP Fatal error:  Call to a member function query() on a non-object in /home/corivkac/public_html/personal/user.php on line 30
+[26-Dec-2017 15:07:10 Europe/Kiev] PHP Fatal error:  Call to a member function query() on a non-object in /home/corivkac/public_html/personal/user.php on line 30
+[26-Dec-2017 15:09:22 Europe/Kiev] PHP Fatal error:  Call to a member function query() on a non-object in /home/corivkac/public_html/personal/user.php on line 30
+[26-Dec-2017 15:10:21 Europe/Kiev] PHP Fatal error:  Call to a member function query() on a non-object in /home/corivkac/public_html/personal/user.php on line 30
+[26-Dec-2017 15:11:09 Europe/Kiev] PHP Fatal error:  Call to a member function query() on a non-object in /home/corivkac/public_html/personal/user.php on line 30
+[26-Dec-2017 15:11:30 Europe/Kiev] PHP Fatal error:  Call to a member function query() on a non-object in /home/corivkac/public_html/personal/user.php on line 30
+[26-Dec-2017 16:45:54 Europe/Kiev] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/corivkac/public_html/personal/users.php on line 50
+[26-Dec-2017 16:45:56 Europe/Kiev] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/corivkac/public_html/personal/users.php on line 50
+[26-Dec-2017 16:46:08 Europe/Kiev] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/corivkac/public_html/personal/users.php on line 50
+[27-Dec-2017 20:11:32 Europe/Kiev] PHP Parse error:  syntax error, unexpected ')' in /home/corivkac/public_html/personal/user.php on line 3
+[27-Dec-2017 20:11:56 Europe/Kiev] PHP Parse error:  syntax error, unexpected ')' in /home/corivkac/public_html/personal/user.php on line 3
+[27-Dec-2017 20:11:57 Europe/Kiev] PHP Parse error:  syntax error, unexpected ')' in /home/corivkac/public_html/personal/user.php on line 3
+[27-Dec-2017 20:18:22 Europe/Kiev] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/corivkac/public_html/personal/user.php on line 3

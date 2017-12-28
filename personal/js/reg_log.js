@@ -1,6 +1,11 @@
-window.onbeforeunload = function () {
-    alert(hjk);
-};
+var url = document.location.href;
+
+function getCookie(name) {
+    var matches = document.cookie.match(new RegExp(
+        "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+    ));
+    return matches ? decodeURIComponent(matches[1]) : undefined;
+}
 
 function AuditRegForm() {
     var regular_email = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -218,6 +223,7 @@ function AuditLogForm() {
         });
     }
 
+
     function AuditBaseSuccess(json_data) {
         if (json_data.login == false) {
             $(".display").html("Ви ввели не правильно логін або пароль");
@@ -227,18 +233,25 @@ function AuditLogForm() {
             $(".display").html("Вхід");
             $("#email_phone").removeClass("check_not_passed").addClass("check_passed");
             $("#password").removeClass("check_not_passed").addClass("check_passed");
-            location = "https://corivka.com.ua/personal/user.php?ip=" + json_data.ip;
+            var page = getCookie('page')
+            if (page) {
+                location = page;
+            } else {
+                location = "https://corivka.com.ua/personal/user.php?ip=" + json_data.ip;
+            }
+
         };
     };
 };
 
 function ExitBase() {
+    var date = new Date(new Date().getTime() + 60 * 1000);
+    document.cookie = "page=" + url + "; expires=" + date.toUTCString();
     $.ajax({
         url: "../personal/base/exit_base.php",
         type: "POST",
         dataType: "json"
     });
-
 }
 
 $(document).ready(function () {

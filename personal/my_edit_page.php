@@ -1,10 +1,5 @@
 <!DOCTYPE html>
 <?php
-    session_start();
-    if (!$_SESSION['ip']) {
-        header("Location: https://corivka.com.ua/personal/login.php");
-    }
-    session_write_close();
     function getUrl() {
         $url  = @( $_SERVER["HTTPS"] != 'on' ) ? 'http://'.$_SERVER["SERVER_NAME"] :  'https://'.$_SERVER["SERVER_NAME"];
         $url .= ( $_SERVER["SERVER_PORT"] != 80 ) ? ":".$_SERVER["SERVER_PORT"] : "";
@@ -12,6 +7,14 @@
         return $url;
     };
     $my_url = getUrl();
+
+    session_start();
+    if (!$_SESSION['ip']) {
+        setcookie("page","$my_url",time()+3600 * 24 * 30);
+        header("Location: https://corivka.com.ua/personal/login.php");
+    }
+    session_write_close();
+
     if ($my_url != "https://corivka.com.ua:443/personal/my_edit_page.php?ip=".$_SESSION['ip']) {
         header("Location: https://corivka.com.ua:443/personal/my_edit_page.php?ip=".$_SESSION['ip']);
     };
@@ -21,12 +24,26 @@
         <?php require_once "../personal/blocks/head.php" ?>
         <link rel="stylesheet" href="style/form.css">
         <script type="text/javascript" src="/personal/js/my_edit_page.js"></script>
-        <title>Настройки</title>
+        <title>Редагування профілю</title>
     </head>
     <body>
         <header class="user_header">
             <div class="my_initials">
-                <a href="" class="my_snp">...</a>
+            <?php
+                $mysqli = new mysqli ("195.149.114.51", "corivkac", "gfup/kycqqs", "corivkac_admin");
+                $mysqli -> query ("SET NAMES 'utf8'");
+                $data_server = $mysqli -> query("SELECT * FROM `users` WHERE `ip` = '".$_SESSION['ip']."'");
+                while (($all = $data_server->fetch_assoc()) != false) {
+                    if ($all['access_rights'] == 1) {
+                        echo "<a href='https://corivka.com.ua/personal/user.php?ip=".$_SESSION['ip']."' class='my_snp'>".$all['surname']." ".$all['name']." (Директор)"."</a>";
+                    } else if ($all['access_rights'] == 2) {
+                        echo "<a href='https://corivka.com.ua/personal/user.php?ip=".$_SESSION['ip']."' class='my_snp'>".$all['surname']." ".$all['name']." (Адміністратор)"."</a>";
+                    } else {
+                        echo "<a href='https://corivka.com.ua/personal/user.php?ip=".$_SESSION['ip']."' class='my_snp'>".$all['surname']." ".$all['name']."</a>";
+                    }
+                    
+                };
+                ?>
             </div>
             <div class="edit_page">
                 <a class="exit" href="https://corivka.com.ua/personal/login.php">Вихід</a>

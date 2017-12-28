@@ -1,119 +1,165 @@
-.egit_menu_page_article {
-    width: 90%;
-    margin-left: 5%;
-    background-color: #371600;
-    padding: 2%;
-    box-sizing: border-box;
-    float: left;
-    border: 1px dotted white;
-}
-
-.menuStyle {
-    text-align: center;
-    font-size: 2em;
-    margin-bottom: 20px;
-}
-
-.menuTypeHead {
-    border: 2px dotted white;
-}
-
-.ShowHide {
-    cursor: pointer;
-    text-align: center;
-}
-
-.ShowHide:hover {
-    color: rgb(240, 205, 165);
-    text-decoration: underline;
-}
-
-.ShowHide,
-.ShowHide:hover,
-.save,
-.save:hover {
-    -webkit-transition: all.4s ease;
-    -moz-transition: all.4s ease;
-    -o-transition: all.4s ease;
-    -ms-transition: all.4s ease;
-    transition: all.4s ease;
-}
-
-.save {
-    border-radius: 10%;
-    background: rgb(20, 196, 20);
-    cursor: pointer;
-    text-align: center;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    padding: 0.3%;
-    border: 1px solid rgb(2, 107, 2);
-    float: right;
-}
-
-.save:hover {
-    color: rgb(240, 205, 165);
-}
-
-.ShowHideBlock {
-    display: none;
-}
-
-input[type=text] {
-    width: 100%;
-    border: none;
-    padding: 0.3%;
-    color: white;
-    background-color: #371600;
-}
-
-.menuTypeHeadInput[type=text] {
-    background-image: url("../../img/backgroundHeaders.jpg");
-    border-bottom: 1px dotted white;
-    border-top: 1px dashed #4F2D00;
-    font-weight: bold;
-    font-family: 'Noto Serif', serif;
-}
-
-.menuDishInput[type=text] {
-    width: 30%;
-    font-weight: 400;
-    font-family: 'Kurale', serif;
-}
-
-.menuIngradiendsInput[type=text] {
-    width: 70%;
-    color: #D3D3D3;
-    font-family: 'Old Standard TT', serif;
-}
-
-.menuWeightInput[type=text] {
-    width: 30%;
-    font-weight: bold;
-}
-
-.menuPriceInput[type=text] {
-    width: 70%;
-    font-weight: bold;
-}
-
-.SequenceInput[type=text] {
-    font-weight: bold;
-    border-bottom: 1px dotted white;
-}
-
-input::-webkit-input-placeholder {
-    color: red;
-}
-
-input::-moz-placeholder {
-    color: red;
-}
-
-input:-ms-input-placeholder {
-    color: red;
-}
-
-input:-moz-placeholder {
-    color: red;
+.egit_menu_page_article {
+    width: 90%;
+    margin-left: 5%;
+    background-color: #371600;
+    padding: 2%;
+    box-sizing: border-box;
+    float: left;
+    border: 1px dotted white;
+}
+
+.menuStyle {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.menuTypeHead {
+    border: 2px dotted white;
+}
+
+.ShowHide {
+    cursor: pointer;
+    text-align: center;
+}
+
+.ShowHide:hover {
+    color: rgb(240, 205, 165);
+    text-decoration: underline;
+}
+
+.ShowHide,
+.ShowHide:hover,
+.save,
+.save:hover {
+    -webkit-transition: all.4s ease;
+    -moz-transition: all.4s ease;
+    -o-transition: all.4s ease;
+    -ms-transition: all.4s ease;
+    transition: all.4s ease;
+}
+
+.save {
+    border-radius: 10%;
+    background: rgb(20, 196, 20);
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 0.3%;
+    border: 1px solid rgb(2, 107, 2);
+    float: right;
+}
+
+.save:hover {
+    color: rgb(240, 205, 165);
+}
+
+.ShowHideBlock {
+    display: none;
+}
+
+input[type=text] {
+    width: 100%;
+    border: none;
+    padding: 0.3%;
+    color: white;
+    background-color: #371600;
+    box-sizing: border-box;
+}
+
+.menuTypeHeadInput[type=text] {
+    background-image: url("../../img/backgroundHeaders.jpg");
+    border-bottom: 1px dotted white;
+    border-top: 1px dashed #4F2D00;
+    font-weight: bold;
+    font-family: 'Noto Serif', serif;
+}
+
+.menuDishInput[type=text] {
+    width: 30%;
+    font-weight: 400;
+    font-family: 'Kurale', serif;
+}
+
+.menuIngradiendsInput[type=text] {
+    width: 70%;
+    color: #D3D3D3;
+    font-family: 'Old Standard TT', serif;
+}
+
+.menuWeightInput[type=text] {
+    width: 30%;
+    font-weight: bold;
+}
+
+.menuPriceInput[type=text] {
+    width: 70%;
+    font-weight: bold;
+}
+
+.SequenceInput[type=text] {
+    font-weight: bold;
+    border-bottom: 1px dotted white;
+}
+
+input::-webkit-input-placeholder {
+    color: red;
+}
+
+input::-moz-placeholder {
+    color: red;
+}
+
+input:-ms-input-placeholder {
+    color: red;
+}
+
+input:-moz-placeholder {
+    color: red;
+}
+
+@media (min-width: 600px) and (max-width: 799px) {
+    .menuDishInput[type=text] {
+        width: 40%;
+    }
+    .menuIngradiendsInput[type=text] {
+        width: 60%;
+    }
+    .menuWeightInput[type=text] {
+        width: 40%;
+    }
+    .menuPriceInput[type=text] {
+        width: 60%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 599px) {
+    .menuDishInput[type=text] {
+        width: 100%;
+    }
+    .menuIngradiendsInput[type=text] {
+        width: 100%;
+    }
+    .menuWeightInput[type=text] {
+        width: 100%;
+    }
+    .menuPriceInput[type=text] {
+        width: 100%;
+    }
+}
+
+@media (max-width: 319px) {
+    .menuDishInput[type=text] {
+        width: 100%;
+    }
+    .menuIngradiendsInput[type=text] {
+        width: 100%;
+    }
+    .menuWeightInput[type=text] {
+        width: 100%;
+    }
+    .menuPriceInput[type=text] {
+        width: 100%;
+    }
 }

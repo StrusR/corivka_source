@@ -58,3 +58,43 @@
 [08-Nov-2017 21:14:15 Europe/Kiev] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/phpt23h19' to 'images/ukraine.jpg' in /home/corivkac/public_html/personal/base/upload_avatar_base.php on line 53
 [08-Nov-2017 21:14:39 Europe/Kiev] PHP Warning:  move_uploaded_file(images/ukraine.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory in /home/corivkac/public_html/personal/base/upload_avatar_base.php on line 53
 [08-Nov-2017 21:14:39 Europe/Kiev] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/phpvMUc7a' to 'images/ukraine.jpg' in /home/corivkac/public_html/personal/base/upload_avatar_base.php on line 53
+[09-Nov-2017 18:09:37 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/base/weekends_base.php on line 19
+[09-Nov-2017 18:09:49 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/base/weekends_base.php on line 19
+[09-Nov-2017 18:12:24 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/base/weekends_base.php on line 19
+[09-Nov-2017 18:12:25 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/base/weekends_base.php on line 19
+[09-Nov-2017 18:12:28 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/base/weekends_base.php on line 19
+[09-Nov-2017 18:12:28 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/base/weekends_base.php on line 19
+[09-Nov-2017 18:12:29 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/base/weekends_base.php on line 19
+[09-Nov-2017 18:12:29 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/base/weekends_base.php on line 19
+[09-Nov-2017 18:12:29 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/base/weekends_base.php on line 19
+[09-Nov-2017 18:12:48 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/base/weekends_base.php on line 19
+[09-Nov-2017 18:12:49 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/base/weekends_base.php on line 19
+[09-Nov-2017 18:12:49 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/base/weekends_base.php on line 19
+[09-Nov-2017 18:12:50 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/base/weekends_base.php on line 19
+[09-Nov-2017 18:12:50 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/base/weekends_base.php on line 19
+[09-Nov-2017 18:12:50 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/base/weekends_base.php on line 19
+[09-Nov-2017 18:12:50 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/base/weekends_base.php on line 19
+[09-Nov-2017 18:12:51 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/base/weekends_base.php on line 19
+[09-Nov-2017 18:12:51 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/base/weekends_base.php on line 19
+[09-Nov-2017 18:12:52 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/base/weekends_base.php on line 19
+[09-Nov-2017 18:12:52 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/base/weekends_base.php on line 19
+[09-Nov-2017 18:14:42 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/base/weekends_base.php on line 19
+[09-Nov-2017 18:14:43 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/base/weekends_base.php on line 19
+[09-Nov-2017 18:14:44 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/base/weekends_base.php on line 19
+[09-Nov-2017 18:14:44 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/base/weekends_base.php on line 19
+[09-Nov-2017 18:15:08 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/base/weekends_base.php on line 19
+[09-Nov-2017 18:15:09 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/base/weekends_base.php on line 19
+[09-Nov-2017 18:15:11 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/base/weekends_base.php on line 19
+[09-Nov-2017 18:15:12 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/personal/base/weekends_base.php on line 19
+[28-Nov-2017 01:18:07 Europe/Kiev] PHP Parse error:  syntax error, unexpected '{' in /home/corivkac/public_html/personal/base/edit_main_page_base.php on line 66
+[28-Nov-2017 01:22:24 Europe/Kiev] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/corivkac/public_html/personal/base/edit_main_page_base.php on line 67
+[28-Nov-2017 01:23:10 Europe/Kiev] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/corivkac/public_html/personal/base/edit_main_page_base.php on line 67
+[28-Nov-2017 01:43:24 Europe/Kiev] PHP Parse error:  syntax error, unexpected T_STRING in /home/corivkac/public_html/personal/base/edit_main_page_base.php on line 37
+[28-Nov-2017 01:46:46 Europe/Kiev] PHP Warning:  unlink(/personal/base/main/1511825956.jpg) [<a href='function.unlink'>function.unlink</a>]: No such file or directory in /home/corivkac/public_html/personal/base/edit_main_page_base.php on line 37
+[28-Nov-2017 01:48:13 Europe/Kiev] PHP Warning:  unlink(/base/main/1511825798.jpg) [<a href='function.unlink'>function.unlink</a>]: No such file or directory in /home/corivkac/public_html/personal/base/edit_main_page_base.php on line 37
+[28-Nov-2017 01:49:33 Europe/Kiev] PHP Warning:  unlink(./base/main/1511826528.jpg) [<a href='function.unlink'>function.unlink</a>]: No such file or directory in /home/corivkac/public_html/personal/base/edit_main_page_base.php on line 37
+[28-Nov-2017 01:52:04 Europe/Kiev] PHP Warning:  unlink(../base/main1511826636.jpg) [<a href='function.unlink'>function.unlink</a>]: No such file or directory in /home/corivkac/public_html/personal/base/edit_main_page_base.php on line 37
+[28-Nov-2017 01:52:54 Europe/Kiev] PHP Warning:  unlink(./base/main1511826747.jpg) [<a href='function.unlink'>function.unlink</a>]: No such file or directory in /home/corivkac/public_html/personal/base/edit_main_page_base.php on line 37
+[28-Nov-2017 01:56:26 Europe/Kiev] PHP Warning:  unlink(/personal/base/main1511826882.jpg) [<a href='function.unlink'>function.unlink</a>]: No such file or directory in /home/corivkac/public_html/personal/base/edit_main_page_base.php on line 37
+[28-Nov-2017 01:58:04 Europe/Kiev] PHP Warning:  unlink(./main1511827059.jpg) [<a href='function.unlink'>function.unlink</a>]: No such file or directory in /home/corivkac/public_html/personal/base/edit_main_page_base.php on line 37
+[28-Nov-2017 02:04:21 Europe/Kiev] PHP Warning:  unlink(./main1511827448.jpg) [<a href='function.unlink'>function.unlink</a>]: No such file or directory in /home/corivkac/public_html/personal/base/edit_main_page_base.php on line 37

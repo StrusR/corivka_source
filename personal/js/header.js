@@ -12,7 +12,7 @@ function ShowEdit_site_type() {
 
 function ShowEdit_menu_type() {
     if (ShowEdit_m_t == false) {
-        $(".edit_menu_type").attr("style", "top: " + $(".user_header").outerHeight() + "px;");
+        $(".edit_menu_type").attr("style", "top: " + ($(".user_header").outerHeight() - 3) + "px;");
         $(".edit_menu_type").slideDown(200);
         ShowEdit_m_t = true
     }

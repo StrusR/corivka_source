@@ -286,3 +286,85 @@
 [08-Nov-2017 16:53:21 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 88
 [08-Nov-2017 17:04:46 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 88
 [08-Nov-2017 17:04:55 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 88
+[10-Nov-2017 00:42:51 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 88
+[10-Nov-2017 00:42:52 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 88
+[11-Nov-2017 00:49:19 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 88
+[11-Nov-2017 00:49:20 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 88
+[12-Nov-2017 21:48:09 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 88
+[12-Nov-2017 21:48:09 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 88
+[19-Nov-2017 14:21:33 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 101
+[20-Nov-2017 14:29:29 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 88
+[20-Nov-2017 14:29:29 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 88
+[20-Nov-2017 20:38:07 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 88
+[21-Nov-2017 18:16:17 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 88
+[21-Nov-2017 18:16:17 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 88
+[22-Nov-2017 18:21:30 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 88
+[22-Nov-2017 18:21:30 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 88
+[23-Nov-2017 11:08:46 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 88
+[25-Nov-2017 21:39:16 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 88
+[25-Nov-2017 21:39:17 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 88
+[26-Nov-2017 14:40:26 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 88
+[26-Nov-2017 14:40:26 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 88
+[26-Nov-2017 15:38:42 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 88
+[26-Nov-2017 15:51:37 Europe/Kiev] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/corivkac/public_html/index.php on line 55
+[26-Nov-2017 16:09:27 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 88
+[27-Nov-2017 14:38:25 Europe/Kiev] PHP Fatal error:  Call to a member function query() on a non-object in /home/corivkac/public_html/index.php on line 63
+[27-Nov-2017 20:26:03 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 88
+[28-Nov-2017 02:09:19 Europe/Kiev] PHP Fatal error:  Call to undefined function php_info() in /home/corivkac/public_html/test.php on line 2
+[28-Nov-2017 02:12:23 Europe/Kiev] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home/corivkac/public_html/test.php on line 19
+[28-Nov-2017 12:54:29 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 88
+[28-Nov-2017 12:54:30 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 88
+[28-Nov-2017 12:57:13 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 88
+[28-Nov-2017 12:57:13 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 88
+[28-Nov-2017 12:59:18 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 88
+[28-Nov-2017 12:59:18 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 88
+[28-Nov-2017 13:05:56 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 88
+[28-Nov-2017 13:05:56 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 88
+[29-Nov-2017 12:40:07 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 88
+[30-Nov-2017 00:48:42 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 88
+[30-Nov-2017 00:48:42 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 88
+[30-Nov-2017 00:48:49 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 88
+[30-Nov-2017 00:48:49 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 88
+[03-Dec-2017 17:48:27 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 88
+[04-Dec-2017 08:10:17 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 88
+[04-Dec-2017 10:19:54 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 88
+[04-Dec-2017 15:33:58 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 88
+[04-Dec-2017 15:33:58 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 88
+[04-Dec-2017 15:33:58 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 88
+[04-Dec-2017 15:33:59 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 88
+[04-Dec-2017 15:34:00 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 88
+[04-Dec-2017 15:34:00 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 88
+[04-Dec-2017 15:34:01 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 88
+[04-Dec-2017 15:34:01 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 88
+[04-Dec-2017 15:34:05 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 88
+[04-Dec-2017 15:34:05 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 88
+[04-Dec-2017 16:27:30 Europe/Kiev] PHP Warning:  stream_socket_server() [<a href='function.stream-socket-server'>function.stream-socket-server</a>]: unable to connect to tcp://127.0.0.1:8000 (Address already in use) in /home/corivkac/public_html/menu.php on line 13
+[04-Dec-2017 16:27:38 Europe/Kiev] PHP Warning:  stream_socket_server() [<a href='function.stream-socket-server'>function.stream-socket-server</a>]: unable to connect to tcp://127.0.0.1:8000 (Address already in use) in /home/corivkac/public_html/menu.php on line 13
+[04-Dec-2017 16:27:38 Europe/Kiev] PHP Warning:  stream_socket_accept() expects parameter 1 to be resource, boolean given in /home/corivkac/public_html/menu.php on line 14
+[04-Dec-2017 16:27:40 Europe/Kiev] PHP Warning:  stream_socket_server() [<a href='function.stream-socket-server'>function.stream-socket-server</a>]: unable to connect to tcp://127.0.0.1:8000 (Address already in use) in /home/corivkac/public_html/menu.php on line 13
+[04-Dec-2017 16:27:40 Europe/Kiev] PHP Warning:  stream_socket_accept() expects parameter 1 to be resource, boolean given in /home/corivkac/public_html/menu.php on line 14
+[04-Dec-2017 16:27:41 Europe/Kiev] PHP Warning:  stream_socket_server() [<a href='function.stream-socket-server'>function.stream-socket-server</a>]: unable to connect to tcp://127.0.0.1:8000 (Address already in use) in /home/corivkac/public_html/menu.php on line 13
+[04-Dec-2017 16:27:41 Europe/Kiev] PHP Warning:  stream_socket_accept() expects parameter 1 to be resource, boolean given in /home/corivkac/public_html/menu.php on line 14
+[04-Dec-2017 16:27:55 Europe/Kiev] PHP Warning:  stream_socket_server() [<a href='function.stream-socket-server'>function.stream-socket-server</a>]: unable to connect to tcp://127.0.0.1:8000 (Address already in use) in /home/corivkac/public_html/menu.php on line 13
+[04-Dec-2017 16:27:55 Europe/Kiev] PHP Warning:  stream_socket_accept() expects parameter 1 to be resource, boolean given in /home/corivkac/public_html/menu.php on line 14
+[04-Dec-2017 16:28:25 Europe/Kiev] PHP Warning:  stream_socket_server() [<a href='function.stream-socket-server'>function.stream-socket-server</a>]: unable to connect to tcp://127.0.0.1:8000 (Address already in use) in /home/corivkac/public_html/menu.php on line 13
+[04-Dec-2017 16:28:25 Europe/Kiev] PHP Warning:  stream_socket_accept() expects parameter 1 to be resource, boolean given in /home/corivkac/public_html/menu.php on line 14
+[04-Dec-2017 16:28:34 Europe/Kiev] PHP Warning:  stream_socket_server() [<a href='function.stream-socket-server'>function.stream-socket-server</a>]: unable to connect to tcp://127.0.0.1:8000 (Address already in use) in /home/corivkac/public_html/menu.php on line 13
+[04-Dec-2017 16:28:34 Europe/Kiev] PHP Warning:  stream_socket_accept() expects parameter 1 to be resource, boolean given in /home/corivkac/public_html/menu.php on line 14
+[04-Dec-2017 16:29:39 Europe/Kiev] PHP Warning:  stream_socket_server() [<a href='function.stream-socket-server'>function.stream-socket-server</a>]: unable to connect to tcp://0.0.0.0:8000 (Address already in use) in /home/corivkac/public_html/menu.php on line 12
+[04-Dec-2017 16:29:44 Europe/Kiev] PHP Warning:  stream_socket_server() [<a href='function.stream-socket-server'>function.stream-socket-server</a>]: unable to connect to tcp://0.0.0.0:8000 (Address already in use) in /home/corivkac/public_html/menu.php on line 12
+[04-Dec-2017 16:30:17 Europe/Kiev] PHP Warning:  stream_socket_server() [<a href='function.stream-socket-server'>function.stream-socket-server</a>]: unable to connect to tcp://127.0.0.1:8000 (Address already in use) in /home/corivkac/public_html/menu.php on line 12
+[04-Dec-2017 16:30:18 Europe/Kiev] PHP Warning:  stream_socket_server() [<a href='function.stream-socket-server'>function.stream-socket-server</a>]: unable to connect to tcp://127.0.0.1:8000 (Address already in use) in /home/corivkac/public_html/menu.php on line 12
+[04-Dec-2017 16:30:18 Europe/Kiev] PHP Warning:  stream_socket_server() [<a href='function.stream-socket-server'>function.stream-socket-server</a>]: unable to connect to tcp://127.0.0.1:8000 (Address already in use) in /home/corivkac/public_html/menu.php on line 12
+[04-Dec-2017 16:30:20 Europe/Kiev] PHP Warning:  stream_socket_server() [<a href='function.stream-socket-server'>function.stream-socket-server</a>]: unable to connect to tcp://127.0.0.1:8000 (Address already in use) in /home/corivkac/public_html/menu.php on line 12
+[06-Dec-2017 09:22:45 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 89
+[06-Dec-2017 09:22:45 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 89
+[06-Dec-2017 10:39:53 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 89
+[06-Dec-2017 10:39:54 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 89
+[08-Dec-2017 11:53:53 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 89
+[19-Dec-2017 22:36:31 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 89
+[19-Dec-2017 22:36:31 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 89
+[20-Dec-2017 02:16:40 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 89
+[20-Dec-2017 02:16:42 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 89
+[26-Dec-2017 17:19:01 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 89
+[27-Dec-2017 18:46:18 Europe/Kiev] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/corivkac/public_html/menu.php on line 89

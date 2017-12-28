@@ -1,14 +1,15 @@
 <div id = "rightCol">
     <div class="businessCard">
         <div>
-            CAFE
+            KAWIARNIA
         </div>
-            <a href="/index_pl.php" title="Główna"><img src="../img/logo.jpg" alt="Główna"></a>
+            <a href="/index.php?language=Pl" title="Główna"><img src="../img/logo.png" alt="Główna"></a>
         <div class="businessCardCow">
-            CORE
+            CORIVKA
         </div>
         <div>
             <ul>
+                <li>Czekam na ciebie <span class="time">[od 09:00 do 20:00],</span></li>
                 <li>śniadania</li>
                 <li>korporacyjne obiady</li>
                 <li>bankietów</li>
@@ -18,7 +19,7 @@
             </ul>
         </div>
         <div class="businessCardPhone">
-            tel. 067 100 50 23
+            tel. +38 (067) 100 50 23
         </div>
     </div>
 </div>

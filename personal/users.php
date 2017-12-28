@@ -26,15 +26,27 @@
     <body>
         <header class="user_header">
             <div class="my_initials">
-                <a href="" class="my_snp">...</a>
+            <?php
+                $mysqli = new mysqli ("195.149.114.51", "corivkac", "gfup/kycqqs", "corivkac_admin");
+                $mysqli -> query ("SET NAMES 'utf8'");
+                $data_server = $mysqli -> query("SELECT * FROM `users` WHERE `ip` = '".$_SESSION['ip']."'");
+                while (($all = $data_server->fetch_assoc()) != false) {
+                    if ($all['access_rights'] == 1) {
+                        echo "<a href='https://corivka.com.ua/personal/user.php?ip=".$_SESSION['ip']."' class='my_snp'>".$all['surname']." ".$all['name']." (Директор)"."</a>";
+                    } else if ($all['access_rights'] == 2) {
+                        echo "<a href='https://corivka.com.ua/personal/user.php?ip=".$_SESSION['ip']."' class='my_snp'>".$all['surname']." ".$all['name']." (Адміністратор)"."</a>";
+                    } else {
+                        echo "<a href='https://corivka.com.ua/personal/user.php?ip=".$_SESSION['ip']."' class='my_snp'>".$all['surname']." ".$all['name']."</a>";
+                    }
+                    
+                };
+                ?>
             </div>
             <div class="edit_page">
                 <a class="exit" href="https://corivka.com.ua/personal/login.php">Вихід</a>
                 <a class="my_edit_page" href="https://corivka.com.ua/personal/my_edit_page.php">Редагувати профіль</a>
                 <a class="calendar" href="https://corivka.com.ua/personal/calendar.php?month=<?php echo date("m")."&year=".date("Y");?>">Календар</a>
                 <?php
-                    $mysqli = new mysqli ("195.149.114.51", "corivkac", "gfup/kycqqs", "corivkac_admin");
-                    $mysqli -> query ("SET NAMES 'utf8'");
                     $data_server = $mysqli -> query("SELECT `access_rights` FROM `users` WHERE `ip` = '".$_SESSION['ip']."'");
                     while (($all = $data_server->fetch_assoc()) != false) {
                         if ($all['access_rights'] < 3){
@@ -61,7 +73,7 @@
     $mysqli = new mysqli ("195.149.114.51", "corivkac", "gfup/kycqqs", "corivkac_admin");
     $mysqli -> query ("SET NAMES 'utf8'");
 
-    $data_server = $mysqli -> query("SELECT * FROM `users` WHERE `ip` != '".$_SESSION['ip']."'");
+    $data_server = $mysqli -> query("SELECT * FROM `users` WHERE `ip` != '".$_SESSION['ip']."' ORDER BY (`access_rights`+0) ASC");
     while (($all = $data_server->fetch_assoc()) != false) {
         $access_rights;
         if ($all['access_rights'] == 1) {
@@ -69,7 +81,7 @@
         } else if ($all['access_rights'] == 2) {
             $access_rights = "(Адміністрарор)";
         } else {
-            $access_rights = "(Працівник)";
+            $access_rights = "";
         }
         if (empty($all['avatar'])) {
             echo "<img class='users_img' alt='' src='../img/logo.jpg'></img>";

@@ -1,0 +1,92 @@
+.menuStyle {
+    text-align: center;
+}
+
+#leftCol a img {
+    float: right;
+    width: 50%;
+}
+
+@media (min-width: 1500px) {
+    #leftCol .menuStyle {
+        width: 100%;
+        font-size: 2.0em;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    #leftCol .paragraph {
+        font-size: 1.2em;
+    }
+}
+
+@media (min-width: 1300px) and (max-width: 1499px) {
+    #leftCol .menuStyle {
+        width: 100%;
+        font-size: 1.9em;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    #leftCol .paragraph {
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1299px) {
+    #leftCol .menuStyle {
+        width: 100%;
+        font-size: 1.7em;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+    #leftCol .paragraph {
+        font-size: 0.9em;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 999px) {
+    #leftCol .menuStyle {
+        width: 100%;
+        font-size: 1.4em;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    #leftCol .paragraph {
+        font-size: 0.8em;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 799px) {
+    #leftCol .menuStyle {
+        width: 100%;
+        font-size: 1.4em;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    #leftCol .paragraph {
+        font-size: 0.8em;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 599px) {
+    #leftCol .menuStyle {
+        width: 100%;
+        font-size: 1.2em;
+        font-weight: 600;
+        margin-bottom: 0px;
+    }
+    #leftCol .paragraph {
+        font-size: 0.7em;
+    }
+}
+
+@media (max-width: 319px) {
+    #leftCol .menuStyle {
+        width: 100%;
+        font-size: 1.0em;
+        font-weight: 600;
+        margin-bottom: -5px;
+    }
+    #leftCol .paragraph {
+        font-size: 0.6em;
+    }
+}

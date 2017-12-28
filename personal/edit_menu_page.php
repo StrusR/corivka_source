@@ -1,19 +1,19 @@
 <?php
+    function getUrl() {
+        $url  = @( $_SERVER["HTTPS"] != 'on' ) ? 'http://'.$_SERVER["SERVER_NAME"] :  'https://'.$_SERVER["SERVER_NAME"];
+        $url .= ( $_SERVER["SERVER_PORT"] != 80 ) ? ":".$_SERVER["SERVER_PORT"] : "";
+        $url .= $_SERVER["REQUEST_URI"];
+        return $url;
+    };
+    $my_url = getUrl();
+
     session_start();
     if (!$_SESSION['ip']) {
+        setcookie("page","$my_url",time()+3600 * 24 * 30);
         header("Location: https://corivka.com.ua/personal/login.php");
     }
     session_write_close();
-    // function getUrl() {
-    //     $url  = @( $_SERVER["HTTPS"] != 'on' ) ? 'http://'.$_SERVER["SERVER_NAME"] :  'https://'.$_SERVER["SERVER_NAME"];
-    //     $url .= ( $_SERVER["SERVER_PORT"] != 80 ) ? ":".$_SERVER["SERVER_PORT"] : "";
-    //     $url .= $_SERVER["REQUEST_URI"];
-    //     return $url;
-    // };
-    // $my_url = getUrl();
-    // if ($my_url == "https://corivka.com.ua/personal/user.php") {
-    //     header("Location: https://corivka.com.ua/personal/user.php?ip=".$_SESSION['ip']);
-    // };
+
     $mysqli = new mysqli ("195.149.114.51", "corivkac", "gfup/kycqqs", "corivkac_admin");
     $mysqli -> query ("SET NAMES 'utf8'");
     $data_server = $mysqli -> query("SELECT `access_rights` FROM `users` WHERE `ip` = '".$_SESSION['ip']."'");
@@ -23,6 +23,8 @@
         }
     };
 ?>
+<!DOCTYPE html>
+<html lang="en">
 <html>
     <head>
         <?php require_once "../personal/blocks/head.php" ?>
@@ -33,7 +35,21 @@
     <body>
         <header class="user_header">
             <div class="my_initials">
-                <a href="" class="my_snp">...</a>
+            <?php
+                $mysqli = new mysqli ("195.149.114.51", "corivkac", "gfup/kycqqs", "corivkac_admin");
+                $mysqli -> query ("SET NAMES 'utf8'");
+                $data_server = $mysqli -> query("SELECT * FROM `users` WHERE `ip` = '".$_SESSION['ip']."'");
+                while (($all = $data_server->fetch_assoc()) != false) {
+                    if ($all['access_rights'] == 1) {
+                        echo "<a href='https://corivka.com.ua/personal/user.php?ip=".$_SESSION['ip']."' class='my_snp'>".$all['surname']." ".$all['name']." (Директор)"."</a>";
+                    } else if ($all['access_rights'] == 2) {
+                        echo "<a href='https://corivka.com.ua/personal/user.php?ip=".$_SESSION['ip']."' class='my_snp'>".$all['surname']." ".$all['name']." (Адміністратор)"."</a>";
+                    } else {
+                        echo "<a href='https://corivka.com.ua/personal/user.php?ip=".$_SESSION['ip']."' class='my_snp'>".$all['surname']." ".$all['name']."</a>";
+                    }
+                    
+                };
+                ?>
             </div>
             <div class="edit_page">
                 <a class="exit" href="https://corivka.com.ua/personal/login.php">Вихід</a>

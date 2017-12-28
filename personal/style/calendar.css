@@ -8,32 +8,107 @@
     border: 1px dotted white;
 }
 
+.calendar_article .edit_panel {
+    float: left;
+    width: 100%;
+}
+
 .calendar_article .days {
-    display: flex;
+    display: block;
+    float: left;
+    width: 100%;
+    /* background: red; */
+    /* display: flex;
     flex-wrap: wrap;
-    /* justify-content: space-between; */
+    justify-content: space-between; */
 }
 
 .calendar_article .day {
+    float: left;
     border: 1px dotted white;
     box-sizing: border-box;
     border-radius: 3%;
-    width: 150px;
-    margin: 5px;
-    padding: 1%;
+    width: 14.5%;
+    margin: 1%;
+    padding: 0.5%;
+    height: 250px;
+}
+
+.users_img {
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+
+.selected_users {
+    width: calc(100% - 20px);
+    float: left;
+}
+
+.day_header {
+    float: left;
+    width: 100%;
+    border-bottom: 1px dotted white;
+    margin-bottom: 3%;
+}
+
+.day_number {
+    margin-top: 3px;
+    float: left;
+}
+
+.week {
+    float: left;
+    position: absolute;
+    font-size: 0.5em;
+    margin-top: -32px;
+    margin-left: 0.5%;
+}
+
+.weekend,
+.lweekend {
+    float: right;
+    margin-left: 5%;
+    display: none;
+}
+
+.weekend {
+    margin-top: 3%;
+    margin-bottom: -3%;
+    margin-left: 5%;
+}
+
+.selectMonth,
+.selectYear {
+    float: left;
+    height: 20px;
 }
 
 .calendar_article .save_graph,
 .calendar_article .clear_month,
 .calendar_article .edit_graph,
 .calendar_article .cancel_graph {
+    float: left;
     width: 130px;
+    height: 20px;
     cursor: pointer;
     display: none;
 }
 
-.calendar_article .day select {
+.calendar_article .print {
+    float: left;
     width: 130px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.calendar_article .save_graph,
+.calendar_article .edit_graph {
+    float: right;
+}
+
+.calendar_article .day select {
+    width: 100%;
     display: none;
 }
 
@@ -44,4 +119,250 @@
 .calendar_article .day select .optionClear:hover {
     text-decoration: underline;
     cursor: pointer;
+}
+
+option[selected] {
+    /* color: rgb(176, 126, 0); */
+    /* background: rgb(248, 255, 166); */
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+@media (min-width: 1300px) and (max-width: 1799px) {
+    .lweekend {
+        font-size: 0.9em;
+        margin-right: -5px;
+        margin-top: 5px;
+    }
+    .weekend {
+        margin-top: 10px;
+    }
+    .selected_users {
+        font-size: 0.9em;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1299px) {
+    .calendar_article .day {
+        width: 18%;
+        margin: 1%;
+        padding: 0.5%;
+        height: 250px;
+    }
+    .lweekend {
+        font-size: 0.9em;
+        margin-right: -5px;
+        margin-top: 5px;
+    }
+    .weekend {
+        margin-top: 10px;
+    }
+    .selected_users {
+        font-size: 0.8em;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 999px) {
+    .calendar_article .day {
+        width: 23%;
+        margin: 1%;
+        padding: 0.5%;
+        height: 250px;
+    }
+    .day_header {
+        margin-bottom: 5%;
+    }
+    .day_number {
+        font-size: 0.7em;
+        margin-bottom: -4px;
+        margin-top: 1px;
+    }
+    .week {
+        font-size: 0.2em;
+        margin-top: -29px;
+    }
+    .lweekend {
+        font-size: 0.9em;
+        margin-right: -5px;
+    }
+    .calendar_article .save_graph,
+    .calendar_article .clear_month,
+    .calendar_article .edit_graph,
+    .calendar_article .cancel_graph,
+    .calendar_article .print,
+    .calendar_article .selectMonth,
+    .calendar_article .selectYear {
+        width: 120px;
+    }
+    .selected_users {
+        font-size: 0.8em;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 799px) {
+    .calendar_article {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .calendar_article .day {
+        width: 31%;
+        padding: 0.5%;
+        margin: 1%;
+        height: 250px;
+    }
+    .day_header {
+        margin-bottom: 5%;
+    }
+    .day_number {
+        font-size: 0.7em;
+        margin-bottom: -4px;
+        margin-top: 1px;
+    }
+    .week {
+        font-size: 0.2em;
+        margin-top: -29px;
+    }
+    .lweekend {
+        font-size: 0.9em;
+    }
+    .weekend {
+        margin-top: 1px;
+    }
+    .calendar_article .save_graph,
+    .calendar_article .clear_month,
+    .calendar_article .edit_graph,
+    .calendar_article .cancel_graph,
+    .calendar_article .print,
+    .calendar_article .selectMonth,
+    .calendar_article .selectYear {
+        width: 100px;
+        font-size: 0.6em;
+    }
+    .selected_users {
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 450px) and (max-width: 599px) {
+    .calendar_article {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .calendar_article .day {
+        width: 31%;
+        padding: 0.5%;
+        margin: 1%;
+        height: 150px;
+    }
+    .day_header {
+        margin-bottom: 5%;
+    }
+    .day_number {
+        font-size: 0.7em;
+        margin-bottom: -4px;
+        margin-top: 1px;
+    }
+    .week {
+        font-size: 0.2em;
+        margin-top: -29px;
+    }
+    .lweekend {
+        margin-top: 1px;
+        font-size: 0.6em;
+    }
+    .users_img {
+        width: 12px;
+        height: 12px;
+        margin-top: -4px;
+    }
+    .calendar_article .save_graph,
+    .calendar_article .clear_month,
+    .calendar_article .edit_graph,
+    .calendar_article .cancel_graph,
+    .calendar_article .print,
+    .calendar_article .selectMonth,
+    .calendar_article .selectYear {
+        width: 60px;
+        font-size: 0.4em;
+    }
+    .selected_users {
+        font-size: 0.6em;
+        margin-top: -7px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 449px) {
+    .calendar_article {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .calendar_article .day {
+        width: 31%;
+        padding: 0.5%;
+        margin: 1%;
+        height: 150px;
+    }
+    .day_header {
+        margin-bottom: 5%;
+    }
+    .day_number {
+        font-size: 0.7em;
+        margin-bottom: -4px;
+        margin-top: 1px;
+    }
+    .week {
+        font-size: 0.2em;
+        margin-top: -29px;
+    }
+    .lweekend {
+        margin-top: 1px;
+        font-size: 0.48em;
+    }
+    .users_img {
+        width: 12px;
+        height: 12px;
+        margin-top: -4px;
+    }
+    .calendar_article .save_graph,
+    .calendar_article .clear_month,
+    .calendar_article .edit_graph,
+    .calendar_article .cancel_graph,
+    .calendar_article .print,
+    .calendar_article .selectMonth,
+    .calendar_article .selectYear {
+        width: 60px;
+        font-size: 0.4em;
+    }
+    .selected_users {
+        font-size: 0.45em;
+        margin-top: -7px;
+    }
+}
+
+@media (max-width: 319px) {
+    .calendar_article {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .calendar_article .day {
+        width: 31%;
+        padding: 0.5%;
+        margin: 1%;
+        height: 200px;
+    }
+    .users_img {
+        width: 15px;
+        height: 15px;
+    }
+    .calendar_article .save_graph,
+    .calendar_article .clear_month,
+    .calendar_article .edit_graph,
+    .calendar_article .cancel_graph,
+    .calendar_article .print {
+        width: 100px;
+        font-size: 0.6em;
+    }
+    .selected_users {
+        font-size: 0.65em;
+    }
 }

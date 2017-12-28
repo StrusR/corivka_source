@@ -11,20 +11,20 @@ function UserData(data) {
     if (data.my_surname == undefined || data.my_surname == "") {
         location.reload();
     }
-    var my_access_rights;
     if (data.my_access_rights == 1) {
-        my_access_rights = "(Директор)";
         $(".edit_graph").show();
+        $(".weekend").hide();
+        $(".lweekend").hide();
     } else if (data.my_access_rights == 2) {
-        my_access_rights = "(Адміністратор)";
         $(".edit_graph").show();
+        $(".weekend").hide();
+        $(".lweekend").hide();
     } else {
-        my_access_rights = "(Працівник)";
         $(".edit_graph").hide();
+        $(".weekend").show();
+        $(".lweekend").show();
     }
 
-    $(".my_snp").html(data.my_surname + " " + data.my_name + " " + data.my_patronymic + " " + my_access_rights);
-    $(".my_snp").attr("href", "https://corivka.com.ua/personal/user.php?ip=" + data.my_ip);
 };
 
 
@@ -36,22 +36,23 @@ $.ajax({
 });
 
 function editYear() {
-    year = $(".year").val();
+    year = $(".selectYear").val();
     location = "https://corivka.com.ua/personal/calendar.php?month=" + month + "&year=" + year;
 }
 
 function editMonth() {
-    month = $(".month").val();
+    month = $(".selectMonth").val();
     location = "https://corivka.com.ua/personal/calendar.php?month=" + month + "&year=" + year;
 }
 
 function selectedMonthYear() {
-    $(".year [value='" + year + "']").attr("selected", "selected");
-    $(".month [value='" + month + "']").attr("selected", "selected");
+    $(".selectYear [value='" + year + "']").attr("selected", "selected");
+    $(".selectMonth [value='" + month + "']").attr("selected", "selected");
 }
 
+
 function clear_month() {
-    var assured = confirm("Ви впевнені, що хочете очистити місяць?\nДані резервації будуть збережені!");
+    var assured = confirm("Ви впевнені, що хочете очистити місяць?");
     if (assured) {
         var days_in_month = 33 - new Date(year, month - 1, 33).getDate();
         var days = [];
@@ -93,7 +94,7 @@ function send_new_graph() {
 }
 
 function cancel_graph() {
-    var assured = confirm("Ви впевнені, що хочете скасувати редагування?\nГрафік не буде збережено!");
+    var assured = confirm("Ви впевнені, що хочете скасувати редагування?\nЗміни не буде збережено!");
     if (assured) {
         reloadWindow();
     }
@@ -110,6 +111,7 @@ function edit_graph() {
     $(".cancel_graph").show();
     $(".selected_users").hide();
     $(".select_users").show();
+    $(".print").hide();
 }
 
 function save_graph() {
@@ -119,17 +121,52 @@ function save_graph() {
     $(".cancel_graph").hide();
     $(".selected_users").show();
     $(".select_users").hide();
+    $(".print").show();
     send_new_graph();
+}
+
+
+
+function editWeekend() {
+    var days_in_month = 33 - new Date(year, month - 1, 33).getDate();
+    var weekends = [];
+    for (var i = 1; i < days_in_month + 1; i++) {
+        if ($("#weekend" + i).is(':checked')) {
+            $("#lweekend" + i).css('color', 'red');
+            weekends[i - 1] = 1;
+        } else {
+            weekends[i - 1] = 0;
+            $("#lweekend" + i).css('color', 'white');
+        }
+    }
+    $.ajax({
+        url: "../personal/base/weekends_base.php",
+        type: "POST",
+        dataType: "json",
+        data: ({
+            days_in_month: days_in_month,
+            month: month,
+            year: year,
+            weekends: weekends
+        }),
+    });
+}
+
+function print_graph() {
+    window.print();
 }
 
 
 
 $(document).ready(function () {
     selectedMonthYear();
-    $(".year").change(editYear);
-    $(".month").change(editMonth);
+    $(".selectYear").change(editYear);
+    $(".selectMonth").change(editMonth);
+    $(".weekend").change(editWeekend);
     $(".edit_graph").on("click", edit_graph);
     $(".save_graph").on("click", save_graph);
     $(".clear_month").on("click", clear_month);
     $(".cancel_graph").on("click", cancel_graph);
+    $(".print").on("click", print_graph);
+
 });

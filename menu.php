@@ -8,6 +8,7 @@ if ($_GET['language'] == "Ua" || $_GET['language'] == "En" || $_GET['language'] 
 } else{
     header("Location: https://corivka.com.ua/menu.php?language=Ua&type=".$_GET['type']);
 }
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -23,11 +24,11 @@ if ($_GET['language'] == "Ua" || $_GET['language'] == "En" || $_GET['language'] 
             echo "<div class='headerBefore'>";
                 echo "<div class='logo'>";
                     if ($_GET['language'] == "Ua") {
-                        echo "<a href='/index.php?language=Ua' title='Головна'><img src='../img/logo.jpg' alt='Головна'></a>";
+                        echo "<a href='/index.php?language=Ua' title='Головна'><img src='../img/logo.png' alt='Головна'></a>";
                     } else if ($_GET['language'] == "En") {
-                        echo "<a href='/index.php?language=En' title='Main'><img src='../img/logo.jpg' alt='Main'></a>";
+                        echo "<a href='/index.php?language=En' title='Main'><img src='../img/logo.png' alt='Main'></a>";
                     } else if ($_GET['language'] == "Pl") {
-                        echo "<a href='/index.php?language=Pl' title='Główna'><img src='../img/logo.jpg' alt='Główna'></a>";
+                        echo "<a href='/index.php?language=Pl' title='Główna'><img src='../img/logo.png' alt='Główna'></a>";
                     } else {
                         header("Location: https://corivka.com.ua/menu.php?language=Ua&type=".$_GET['type']);
                     }
@@ -35,8 +36,8 @@ if ($_GET['language'] == "Ua" || $_GET['language'] == "En" || $_GET['language'] 
                 echo "</div>";
                 echo "<div class='flags'>";
                     echo "<a href='/menu.php?language=Ua&type=".$_GET['type']."'><img src='../img/ukraine.jpg' alt='ukraine language' title='Українська'></a>";
-                    echo "<a href='/menu.php?language=En&type=".$_GET['type']."'><img src='../img/english.png' alt='english language' title='English'></a>";
-                    echo "<a href='/menu.php?language=Pl&type=".$_GET['type']."'><img src='../img/poland.jpg' alt='poland language' title='Polski'></a>";
+                    echo "<a href='/menu.php?language=En&type=".$_GET['type']."'><img src='../img/english.png' alt='english language' title='English' class='hide'></a>";
+                    echo "<a href='/menu.php?language=Pl&type=".$_GET['type']."'><img src='../img/poland.jpg' alt='poland language' title='Polski' class='hide'></a>";
                 echo "</div>";
             echo "</div>";
 
@@ -50,7 +51,7 @@ if ($_GET['language'] == "Ua" || $_GET['language'] == "En" || $_GET['language'] 
         ?>
         <article id = "wrapper">
             <div id = "leftCol">
-                <div class="menuStyle">
+                <h2 class="menuStyle">
                     <?php
                     if ($_GET['language'] == "Ua") {
                         if ($_GET['type'] == "Menu") {
@@ -78,7 +79,7 @@ if ($_GET['language'] == "Ua" || $_GET['language'] == "En" || $_GET['language'] 
                         }
                     }
                     ?>
-                </div>
+                </h2>
                 <?php
                     $menuTypeHead = array();
                     $mysqli = new mysqli ("195.149.114.51", "corivkac", "gfup/kycqqs", "corivkac_admin");

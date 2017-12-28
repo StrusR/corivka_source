@@ -35,9 +35,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
 
     if ($SuccessReturn['login'] == true && $SuccessReturn['phone'] == true && $SuccessReturn['password'] == true) {
         if ($new_password) {
-            $mysqli -> query("UPDATE `users` SET `login` = '".$new_login."', `surname` = '".$new_surname."', `patronymic` = '".$new_patronymic."', `password` = '".md5($new_password)."', `phone` = '".$new_phone."' WHERE `users`.`ip` = '".$ip."'");
+            $mysqli -> query("UPDATE `users` SET `login` = '".$new_login."', `name` = '".$new_name."', `surname` = '".$new_surname."', `patronymic` = '".$new_patronymic."', `password` = '".md5($new_password)."', `phone` = '".$new_phone."' WHERE `users`.`ip` = '".$ip."'");
         } else {
-            $mysqli -> query("UPDATE `users` SET `login` = '".$new_login."', `surname` = '".$new_surname."', `patronymic` = '".$new_patronymic."', `phone` = '".$new_phone."' WHERE `users`.`ip` = '".$ip."'");
+            $mysqli -> query("UPDATE `users` SET `login` = '".$new_login."', `name` = '".$new_name."', `surname` = '".$new_surname."', `patronymic` = '".$new_patronymic."', `phone` = '".$new_phone."' WHERE `users`.`ip` = '".$ip."'");
         }
     }
     
